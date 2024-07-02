@@ -1,0 +1,43 @@
+
+.cancel1-back{
+    width: 192px;
+    height: 48px;
+    border-radius: 4px;
+    margin-left: 40px;
+    /* margin-top: 48px; */
+    
+  }
+  .text1-back{
+    color: black;
+  font-size: 16px;
+  font-family: Spoqa Han Sans Neo;
+  font-weight: 500;
+  line-height: 16px;
+  word-wrap: break-word
+  }
+  
+  .one-bk{
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+  }
+  
+.delete1-back{
+    width: 193px;
+    height: 48px;
+    border-radius: 4px;
+    /* margin-top: 48px; */
+     margin-left: 10px; 
+    background-color: black;
+    color: white;
+    margin-bottom: 7px;
+  }
+  
+
+  .label-button-wrapper-back{
+    margin-left: 445px;
+  }
+  .fl{
+    display: flex;
+    flex-direction: row;
+  }

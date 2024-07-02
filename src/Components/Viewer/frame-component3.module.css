@@ -1,0 +1,221 @@
+.icon {
+  height: 3rem;
+  width: 3rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.b,
+.div1,
+.icon {
+  position: relative;
+}
+.div1 {
+  width: 6.25rem;
+  line-height: 1.375rem;
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.b {
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  font-family: "Spoqa Han Sans Neo";
+
+}
+.div,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.wrapper {
+  font-size: var(--h-h4-b-size);
+  color: var(--text-color-label-bt-input-bk-enable);
+}
+.div {
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--number-token-16);
+}
+.div3,
+.icon1 {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon1 {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+}
+.div3 {
+  width: 6.25rem;
+  line-height: 1.375rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.div2 {
+  width: 19.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--number-token-16);
+}
+.b1 {
+  align-self: stretch;
+  line-height: 1.188rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.b1,
+.div4,
+.div5,
+.icon2 {
+  position: relative;
+  overflow: hidden;
+}
+.icon2 {
+  height: 3rem;
+  width: 3rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+}
+.div4,
+.div5 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.div4 {
+  width: 6.25rem;
+  line-height: 1.375rem;
+  display: none;
+  flex-shrink: 0;
+}
+.div5 {
+  font-size: 14px;
+  font-weight: 400;
+  flex: 1;
+  color: black;
+  line-height: 1.188rem;
+}
+.borderProperties,
+.fillProperties {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.fillProperties {
+  flex: 1;
+  font-size: var(--h-h6-b-size);
+  color: var(--text-color-label-bt-input-bk-enable);
+}
+.borderProperties {
+  width: 1.75rem;
+  gap: var(--number-token-16);
+}
+.div7,
+.icon3 {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon3 {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+}
+.div7 {
+  width: 6.25rem;
+  font-size: var(--novel-body-myeongjo-3-size);
+  line-height: 1.375rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.div8 {
+  flex: 1;
+}
+.div10,
+.div8,
+.div9 {
+  position: relative;
+  line-height: 1.188rem;
+  overflow: hidden;
+  font-size: 14px;
+  /* text-overflow: ellipsis; */
+  white-space: nowrap;
+}
+.div9 {
+  width: 0.5rem;
+  display: inline-block;
+}
+.div10 {
+  flex: 1;
+  font-size: 14px;
+}
+.borderPropertiesParent,
+.div6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div6 {
+  margin-left: 6px;
+  flex: 1;
+  gap: var(--number-token-4);
+  font-size: var(--h-h6-b-size);
+}
+.borderPropertiesParent {
+  width: 13.625rem;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  font-size: var(--novel-body-myeongjo-3-size);
+  color: var(--gray-bk-60);
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--number-token-4);
+  font-size: var(--h-h6-b-size);
+  color: var(--text-color-label-bt-input-bk-enable);
+}
+.captions,
+.captionsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.captions {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: var(--number-token-12);
+}
+.captionsWrapper {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* padding: 0 0 var(--padding-9xs); */
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--novel-body-myeongjo-3-size);
+  color: var(--gray-bk-60);
+  font-family: var(--h-h7-b);
+}

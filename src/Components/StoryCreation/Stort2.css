@@ -1,0 +1,1327 @@
+.nolist-icon {
+    position: relative;
+    width: 2.25rem;
+    height: 2.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .right-trail {
+    background-color: #000;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  .logo-icon {
+    position: relative;
+    width: 4.5rem;
+    height: 1.25rem;
+    object-fit: cover;
+  }
+  .left-trail {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+  .spacing {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+  }
+  .ic-search-icon,
+  .nosearch-icon {
+    position: relative;
+    width: 2.25rem;
+    height: 2.25rem;
+    object-fit: cover;
+  }
+  .ic-search-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+  .right-trail2 {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .insung-yoon-gpcz1b3aeqk-unspla-icon {
+    position: absolute;
+    height: 293.61%;
+    width: 252.38%;
+    top: -96.02%;
+    right: -145.24%;
+    bottom: -97.59%;
+    left: -7.14%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pic-fieldprof-15 {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.38rem;
+    overflow: hidden;
+  }
+  .field-list-imgfalsefalsethu {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 4.13rem;
+    height: 1.88rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .div1 {
+    position: relative;
+    line-height: 0.88rem;
+    font-weight: 500;
+  }
+  .right-trail4 {
+    height: 4.25rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  .ic-search-icon1 {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+  }
+  .wrapper {
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .andre-blanco-3sakn9kdlhe-unspl-icon {
+    position: absolute;
+    height: 171%;
+    width: 135%;
+    top: 20%;
+    /* right: -5%; */
+    bottom: -45%;
+    
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .image-profile{
+    width: 42px;
+    height: 32px;
+    border-radius: 3px;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+  .field-list-imgfalsefalsethu1 {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .right-trail6,
+  .write-in-gnb {
+    height: 4.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .right-trail6 {
+    display: none;
+    padding: 0.75rem 0.5rem;
+    gap: 0.5rem;
+  }
+  .write-in-gnb {
+    width: 4.5rem;
+    display: flex;
+    padding: 1.25rem;
+  }
+  .v-divider-16-invers-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .v-divider-16-invers {
+    align-self: stretch;
+    position: relative;
+    width: 0.06rem;
+  }
+  .name,
+  .v-divider-16-invers-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .v-divider-16-invers-wrapper {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+  }
+  .name {
+    width: 2.5rem;
+    height: 1rem;
+    justify-content: flex-end;
+  }
+  .abhishek-tiwari-3zdxqud13bc-un-icon {
+    position: absolute;
+    height: 158%;
+    width: 118%;
+    top: 0;
+    right: -9%;
+    bottom: -58%;
+    left: -9%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .field-writer,
+  .gnb-2 {
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .field-writer {
+    width: 8.13rem;
+    justify-content: flex-end;
+    padding: 0.75rem 1.25rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  .gnb-2 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    width: 90rem;
+    justify-content: flex-start;
+  }
+  .natali-nn-qcdjw-26zzk-unsplash-icon {
+    position: absolute;
+    height: 142%;
+    width: 106%;
+    top: -21%;
+    right: -3%;
+    bottom: -21%;
+    left: -3%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pic-fieldprof-12 {
+    position: absolute;
+    height: 206.25%;
+    width: 100%;
+    top: -53.25%;
+    right: 0;
+    bottom: -53%;
+    left: 0;
+    overflow: hidden;
+  }
+ 
+  .cover,
+  .cover1 {
+    position: absolute;
+    top: 0;
+  }
+  .cover {
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 90rem;
+    height: 55.88rem;
+  }
+  .cover1 {
+    left: calc(50% - 717px);
+    background: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.1));
+    width: 89.63rem;
+    height: 15.25rem;
+    opacity: 0.2;
+  }
+  .room {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    display: none;
+  }
+  .ic-hamburger-icon {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+  }
+  .div4 {
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  .text1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding: 0 0.25rem;
+  }
+  .nowrite-icon {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  .label-button {
+    border-radius: 4px;
+    height: 1.75rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    box-sizing: border-box;
+  }
+  .aper,
+  .b {
+    position: relative;
+  }
+  .aper {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  .b {
+    line-height: 1.19rem;
+  }
+  .routine {
+    flex: 1;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    text-align: left;
+    font-size: 0.88rem;
+  }
+  .editing-child {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 0.75rem;
+    display: none;
+  }
+  .toggle-child,
+  .toggle-item {
+    position: relative;
+    border-radius: 6px;
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+  .toggle-item {
+    background-color: #fff;
+  }
+  .toggle {
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.36);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.13rem;
+    gap: 0.13rem;
+  }
+  .div8 {
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+    display: inline-block;
+    width: 2.13rem;
+    flex-shrink: 0;
+  }
+  .open-closed {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: left;
+  }
+  .text{
+    margin-top: 10px;
+  }
+  .rectangle-div {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 0.75rem;
+  }
+  .editing,
+  .interface,
+  .more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .more {
+    border-radius: 4px;
+    width: 1.75rem;
+    height: 1.75rem;
+    justify-content: center;
+  }
+  .editing,
+  .interface {
+    justify-content: flex-end;
+  }
+  .editing {
+    flex-shrink: 0;
+    gap: 1rem;
+  }
+  .interface {
+    align-self: stretch;
+    gap: 0.63rem;
+  }
+  .b1,
+  .title3 {
+    position: relative;
+    line-height: 2.38rem;
+  }
+  .b1 {
+    display: none;
+    width: 3.19rem;
+    flex-shrink: 0;
+  }
+  .title3 {
+    flex: 1;
+  }
+  .div9,
+  .ic-write-icon6 {
+    position: relative;
+    display: none;
+  }
+  .div9 {
+    line-height: 1.38rem;
+  }
+  .ic-write-icon6 {
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: cover;
+  }
+  .label-button4,
+  .parent {
+    flex-direction: row;
+    align-items: center;
+  }
+  .label-button4 {
+    border-radius: 4px;
+    height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+  }
+  .parent {
+    flex-shrink: 0;
+    display: none;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .title1,
+  .title2 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  .title2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: left;
+    font-size: 1.75rem;
+  }
+  .title1 {
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+  .field-list-imgfalsefalsethu3 {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b2 {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb {
+    height: 2.13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .genre-date-for-story-child {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .div11,
+  .div13 {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div13 {
+    display: none;
+  }
+  .date {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .fear-of-driving1 {
+    position: relative;
+    line-height: 1.19rem;
+    color: #000;
+  }
+  .duie-date,
+  .genre-date-for-story {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .duie-date {
+    flex: 1;
+    flex-shrink: 0;
+    display: none;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story {
+    display: flex;
+    gap: 1rem;
+    text-align: left;
+    font-size: 0.88rem;
+  }
+  .text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  .story-cover-editor,
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    width: 43.75rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 6.25rem 0 3rem;
+    box-sizing: border-box;
+  }
+  .story-cover-editor {
+    background-color: #fff;
+    width: 90rem;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.75rem;
+  }
+  .parrish-freeman-imidyuvbole-un-icon {
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    top: -39%;
+    right: 0;
+    bottom: -11%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pic-fieldprof-02 {
+    position: relative;
+    width: 2.25rem;
+    height: 2.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .floyd-carter {
+    position: relative;
+    line-height: 1.5rem;
+  }
+  .text7,
+  .writer {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .text7 {
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+  .writer {
+    border-radius: 4px;
+    display: none;
+    align-items: center;
+    padding: 0.5rem 0;
+    font-size: 1.13rem;
+  }
+  .caglar-oskay-37iikyijewa-unspl-icon {
+    position: absolute;
+    height: 420.83%;
+    width: 266.67%;
+    top: 0;
+    right: -108.33%;
+    bottom: -320.83%;
+    left: -58.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .div16,
+  .div17 {
+    position: relative;
+    display: none;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .div16 {
+    width: 3rem;
+    height: 3rem;
+  }
+  .div17 {
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 6.25rem;
+  }
+  .child {
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .container,
+  .div15 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .div15 {
+    align-self: stretch;
+    gap: 1rem;
+  }
+  .container {
+    flex-shrink: 0;
+  }
+  .div20 {
+    position: relative;
+    line-height: 1.38rem;
+    color: rgba(0, 0, 0, 0.6);
+    display: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 6.25rem;
+    flex-shrink: 0;
+  }
+  .div18,
+  .group {
+    align-self: stretch;
+    display: none;
+    justify-content: flex-start;
+  }
+  .div18 {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+  }
+  .group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .title6 {
+    flex: 1;
+    position: relative;
+    line-height: 2.38rem;
+    color: #000;
+  }
+  .title-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    font-size: 1.75rem;
+    color: #fff;
+  }
+  .frame-child {
+    align-self: stretch;
+    position: relative;
+    background-color: #000;
+    height: 0.13rem;
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .div25 {
+    position: relative;
+    line-height: 1.38rem;
+    display: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div21,
+  .frame-div {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .frame-div {
+    flex-shrink: 0;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .div21 {
+    align-self: stretch;
+    display: none;
+    gap: 1rem;
+  }
+  .text6,
+  .top-header {
+    flex-direction: column;
+  }
+  .text6 {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 1.5rem;
+  }
+  .top-header {
+    background-color: #fff;
+    width: 90rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 4.88rem;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 1rem;
+    color: #fff;
+  }
+  .h-divider-20 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-16 {
+    position: relative;
+    width: 90rem;
+    height: 0.06rem;
+  }
+  .h-divider-16-parent {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .b4-story{
+    color: black;
+font-size: 22px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 28px;
+word-wrap: break-word
+  }
+  .ic-add-s-icon {
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    object-fit: cover;
+  }
+  .bt,
+  .div28,
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bt {
+    border-radius: 4px;
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-direction: row;
+  }
+  .div28,
+  .wrap {
+    width: 43.75rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .div28 {
+    width: 90rem;
+    padding: 2.25rem 9rem 0;
+    box-sizing: border-box;
+    gap: 2.25rem;
+  }
+  .b6 {
+    flex: 1;
+    position: relative;
+    font-size: 1.38rem;
+    line-height: 1.75rem;
+  }
+  .toggle-child1 {
+    position: relative;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 0.75rem;
+    height: 0.75rem;
+  }
+  .toggle1 {
+    border-radius: 12px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.13rem;
+    gap: 0.13rem;
+  }
+  .open-closed1,
+  .open-closed2 {
+    flex-shrink: 0;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  .open-closed1 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+  }
+  .open-closed2 {
+    text-align: left;
+  }
+  .editing1,
+  .header,
+  .open-closed2,
+  .title7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .editing1 {
+    flex-shrink: 0;
+    justify-content: flex-end;
+    gap: 1rem;
+    text-align: center;
+    color: #000;
+  }
+  .header,
+  .title7 {
+    justify-content: flex-start;
+    gap: 0.25rem;
+  }
+  .title7 {
+    flex: 1;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.36);
+  }
+  .header {
+    width: 43.75rem;
+    text-align: center;
+    font-size: 1.38rem;
+  }
+  .div35 {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 2.5rem;
+    flex-shrink: 0;
+  }
+  .ic-enter-arrow-icon,
+  .text-child {
+    position: relative;
+    object-fit: cover;
+  }
+  .ic-enter-arrow-icon {
+    width: 1.13rem;
+    height: 1.13rem;
+  }
+  .text-child {
+    align-self: stretch;
+    max-width: 100%;
+    overflow: hidden;
+    height: 0.06rem;
+    flex-shrink: 0;
+  }
+  .text11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .spacing-4 {
+    flex: 1;
+    position: relative;
+    height: 0.25rem;
+  }
+  .hover {
+    border-radius: 4px;
+    width: 43.75rem;
+    height: 2.25rem;
+    flex-direction: row;
+    padding: 0.38rem 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .body,
+  .field-thumb1,
+  .genre-date-for-story1,
+  .hover {
+    display: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .body {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 1rem;
+    color: rgba(0, 0, 0, 0.36);
+    font-family: "YoonGothic 700";
+  }
+  .field-thumb1,
+  .genre-date-for-story1 {
+    flex-direction: row;
+  }
+  .field-thumb1 {
+    height: 2.13rem;
+    padding: 0 0 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .genre-date-for-story1 {
+    align-self: stretch;
+    gap: 1rem;
+    font-size: 0.88rem;
+  }
+  .fear-of-driving5 {
+    position: relative;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .due-date {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.13rem;
+    text-align: center;
+    font-size: 0.88rem;
+    color: #ff3d00;
+  }
+  .p {
+    margin: 0;
+  }
+  .body1,
+  .div40 {
+    align-self: stretch;
+  }
+  .div40 {
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  .body1 {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .button-area,
+  .label-button8 {
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .label-button8 {
+    height: 1.75rem;
+    display: none;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    font-size: 0.75rem;
+  }
+  .button-area {
+    width: 43.75rem;
+    height: 2.25rem;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.38rem 0;
+    text-align: center;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .div29,
+  .interface-2 {
+    flex-direction: column;
+  }
+  .interface-2 {
+    align-self: stretch;
+    display: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  .div29 {
+    align-items: center;
+    justify-content: center;
+    padding: 2.25rem 9rem 0;
+    box-sizing: border-box;
+    gap: 2.25rem;
+    text-align: left;
+    font-size: 1.13rem;
+  }
+  .div29,
+  .div42,
+  .h-divider-165 {
+    width: 90rem;
+    display: none;
+  }
+  .div42 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.25rem 9rem 0;
+    box-sizing: border-box;
+    gap: 2.25rem;
+  }
+  .h-divider-165 {
+    flex: 1;
+    position: relative;
+  }
+  .right-trail7,
+  .story-cover-editor-parent {
+    background-color: #fff;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .story-cover-editor-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 64.31rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.38rem;
+    color: #000;
+  }
+  .right-trail7 {
+    display: none;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  .left-trail1,
+  .right-trail9 {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .left-trail1 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+  }
+  .right-trail9 {
+    width: 4.5rem;
+    height: 4.5rem;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  .login {
+    position: relative;
+    line-height: 1.5rem;
+    display: none;
+  }
+  .caglar-oskay-37iikyijewa-unspl-icon3 {
+    position: absolute;
+    height: 202%;
+    width: 128%;
+    top: 0;
+    right: 0;
+    bottom: -102%;
+    left: -28%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu5 {
+    align-self: stretch;
+    position: relative;
+    border-radius: 4px;
+    width: 3.75rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .right-trail10,
+  .v-divider-16-wrapper {
+    background-color: #fff;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem 1rem;
+  }
+  .right-trail10 {
+    height: 4.25rem;
+    display: none;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 0.63rem;
+    font-size: 1.13rem;
+  }
+  .v-divider-16-wrapper {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .field-list-imgfalsefalsethu6 {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 4.13rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame,
+  .right-trail11 {
+    align-items: center;
+    justify-content: center;
+  }
+  .frame {
+    width: 4rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+  .right-trail11 {
+    background-color: #fff;
+    height: 4.5rem;
+    display: none;
+    flex-direction: column;
+    padding: 0.75rem 0.5rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  .field-writer1,
+  .gnb-new-3 {
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .field-writer1 {
+    background-color: #fff;
+    width: 8.13rem;
+    justify-content: flex-end;
+    padding: 0.75rem 1.25rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  .gnb-new-3 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 720px);
+    width: 90rem;
+    justify-content: flex-start;
+    color: #000;
+  }
+  .nocheck-icon {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    display: none;
+  }
+  .div45 {
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+  }
+  .nocheck-parent,
+  .toast {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nocheck-parent {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .toast {
+    position: absolute;
+    top: 47.25rem;
+    left: calc(50% - 206px);
+    border-radius: 4px;
+    background-color: #000;
+    width: 25.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.13rem;
+  }
+  .div {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 56.25rem;
+    overflow: hidden;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #fff;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .routine-parent1-story {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    text-align: center;
+    font-size: 1.13rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+
+  .story-desc-story{
+    color: black;
+font-size: 28px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 38px;
+word-wrap: break-word
+  }
+ 
+
+ 
+  .design-table{
+    width: 136px;
+    height: 100px;
+    border-radius: 15px;
+  }
+  .more-table td {
+  
+    padding: 5px; /* Optional: Add padding */
+  }

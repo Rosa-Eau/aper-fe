@@ -1,0 +1,334 @@
+body.active-modal-signup {
+    overflow-y: hidden;
+}
+
+.btn-modal-signup {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+.heading-modaal-signup {
+  text-align: center;
+  margin: 10px 0; 
+}
+.b3-signup {
+  display: block;
+  align-items: flex-start;
+  font-size: 1.5em; 
+  margin-top: -10px;
+  
+}
+
+.b33-signup {
+  display: block;
+  align-items: flex-start;
+  font-size: 1em; 
+  /* margin-top: -10px; */
+  
+}
+.b3-signup-m {
+  display: block;
+  align-items: flex-start;
+  font-size: 1.5em; 
+}
+.custom-button-signup {
+    margin-left: -40px;
+    background-color: black; 
+    color: white; 
+    width: 120px; 
+    height: 40px; 
+    border: none; 
+    cursor: pointer; 
+}
+.modal-signup, .overlay-signup {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    color: black;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 400;
+line-height: 19px;
+word-wrap: break-word;
+
+}
+
+.overlay-signup {
+    background: rgba(49,49,49,0.8);
+}
+
+.modal-content-signup {
+    height: 90vh; 
+    overflow: hidden;
+    position: absolute;
+    margin-top: 70px ;
+    margin-bottom: 140px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: white;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    max-height: 83vh;
+    /* overflow-y: auto; */
+    min-width: 300px;
+    height: 610px;
+    /* overflow-y: auto; */
+}
+.close{
+  width: 20px;
+  height: 20px;
+}
+
+.close2{
+  width: 20px;
+  height: 20px;
+  
+}
+.close-modal-signup {
+    position: absolute;
+    top: 26px;
+    right: 26px;
+    /* padding: 5px 9px; */
+    border: none;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.close-modal-signup-1 {
+  position: absolute;
+  top: 15px;
+  right: 26px;
+  /* padding: 5px 9px; */
+  border: none;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+.close-modal-signup-2 {
+  position: absolute;
+  top: 14px;
+  right: 26px;
+  /* padding: 5px 9px; */
+  border: none;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.custom-table-signup {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 32px;
+  }
+  
+  .custom-table-signup th, .custom-table-signup td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .custom-table-signup th {
+    background-color: rgba(0, 0, 0, 0.20);
+  }
+
+  
+  .model-button-signup{
+    color: black;
+  }
+  .scrollable-content-signup{
+    height: 78%;
+    overflow-y: auto; 
+  }
+
+
+  .scrollable-content-signup {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #000000 #f4f4f4;
+  }
+  
+  /* Track */
+  .scrollable-content-signup::-webkit-scrollbar {
+    width: 8px; 
+  }
+  
+  /* Handle */
+  .scrollable-content-signup::-webkit-scrollbar-thumb {
+    background-color: #888888; 
+    border-radius: 4px;
+  }
+  
+ 
+
+.scrollable-content-signup::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.scro::-webkit-scrollbar-thumb:hover::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+  .last-modal-signup{
+    margin-top: 30px;
+  }
+  .label-button-signup {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px; 
+    background-color: #fff;
+   
+    /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); Optional: Add a shadow for separation */
+  }
+  .modal-description-signup{
+    color: black;
+    font-size: 16px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
+margin-left: 60px;
+margin-top: 32px;
+
+  }
+  .middle-signup{
+    color: black;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 19px;
+word-wrap: break-word
+  }
+  .modal-description-signup2{
+    margin-left: 60px;
+    color: black;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    line-height: 19px;
+    word-wrap: break-word;
+    margin-top: 10px;
+
+
+  }
+  .modal-description2-signup{
+    color: black;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    line-height: 19px;
+    word-wrap: break-word;
+margin-left: 45px;
+  }
+
+
+
+
+
+
+  .table-heading-signup{
+    color: black;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    line-height: 19px;
+    word-wrap: break-word;
+     text-align: center;
+  }
+  table  th {
+    text-align: center;
+  }
+  .modal-table-content-signup{
+    color: black;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 400;
+    line-height: 19px;
+    word-wrap: break-word
+  }
+
+
+  .modal-desc2-signup{
+    color: rgba(0, 0, 0, 0.80);
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 400;
+line-height: 19px;
+word-wrap: break-word
+  }
+
+  .modal1-heading1-signup{
+    color: black;
+font-size: 16px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 22px;
+word-wrap: break-word
+  }
+
+  .model2-heading-signup{
+    color: black;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 19px;
+word-wrap: break-word
+  }
+
+  .modal1-heading-signup{
+    color: black;
+font-size: 16px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 22px;
+word-wrap: break-word
+  }
+
+  .modal1-heading2-signup{
+    color: black;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 700;
+line-height: 19px;
+word-wrap: break-word
+  }
+  .modal1-heading2-signup-2{
+    color: black;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    line-height: 19px;
+    word-wrap: break-word
+  }
+  .des3{
+    color: black;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 400;
+line-height: 19px;
+word-wrap: break-word
+  }
+
+
+  .underline{
+    
+    border-bottom: 2px solid black; 
+  display: inline-block; 
+  margin-bottom: -2px; 
+  cursor: pointer;
+
+
+  }
+

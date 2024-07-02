@@ -1,0 +1,108 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import url("//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css");
+@import "https://cdn.jsdelivr.net/npm/font-kopubworld@1.0";
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+KR:400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR&display=swap');
+body {
+  margin: 0;
+  line-height: normal;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+  accent-color: var(--gray-black)
+}
+:root {
+  /* fonts */
+  --h-h5-b: "Spoqa Han Sans Neo";
+  --font: "Spoqa Han Sans Neo"!important;
+
+  /* font sizes */
+  --h-h5-b-size: 1rem;
+  --caption-caption-size: 0.88rem;
+  --h-h3-b-size: 1.38rem;
+
+  /* Colors */
+  --gray-white: #fff;
+  --gray-black: #000;
+  --gray-bk-36: rgba(0, 0, 0, 0.36);
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+  --color-gray-200: rgba(0, 0, 0, 0.8);
+
+  /* Spacing */
+  --number-token-36: 2.25rem;
+  --number-token-56: 3.5rem;
+  --number-token-8: 0.5rem;
+  --number-token-52: 3.25rem;
+  --label-spacing-label-48-side: 1.25rem;
+  --number-token-4: 0.25rem;
+  --label-spacing-label-48-ic-side: 0.25rem;
+  --label-spacing-label-36-side: 0.75rem;
+  --label-spacing-label-36-ic-side: 0.25rem;
+  --number-token-12: 0.75rem;
+
+  /* Gaps */
+  --gap-17xl: 2.25rem;
+  --gap-9xs: 0.25rem;
+
+  /* Paddings */
+  --padding-37xl: 3.5rem;
+  --padding-7xs: 0.38rem;
+  --padding-xl: 1.25rem;
+  --padding-9xs: 0.25rem;
+  --padding-xs: 0.75rem;
+  --padding-sm: 0.88rem;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-xs: 12px;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Spoqa+Han+Sans+Neo:wght@400;500;700&display=swap"); */
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --h-h5-b: "Spoqa Han Sans Neo";
+
+  /* font sizes */
+  --h-h5-b-size: 1rem;
+  --caption-caption-size: 0.88rem;
+  --h-h3-b-size: 1.38rem;
+
+  /* Colors */
+  --gray-white: #fff;
+  --gray-black: #000;
+  --gray-bk-36: rgba(0, 0, 0, 0.36);
+  --color-gray-100: rgba(0, 0, 0, 0.5);
+  --color-gray-200: rgba(0, 0, 0, 0.8);
+
+  /* Spacing */
+  --number-token-36: 2.25rem;
+  --number-token-56: 3.5rem;
+  --number-token-8: 0.5rem;
+  --number-token-52: 3.25rem;
+  --label-spacing-label-48-side: 1.25rem;
+  --number-token-4: 0.25rem;
+  --label-spacing-label-48-ic-side: 0.25rem;
+  --label-spacing-label-36-side: 0.75rem;
+  --label-spacing-label-36-ic-side: 0.25rem;
+  --number-token-12: 0.75rem;
+
+  /* Gaps */
+  --gap-17xl: 2.25rem;
+  --gap-9xs: 0.25rem;
+
+  /* Paddings */
+  --padding-37xl: 3.5rem;
+  --padding-7xs: 0.38rem;
+  --padding-xl: 1.25rem;
+  --padding-9xs: 0.25rem;
+  --padding-xs: 0.75rem;
+  --padding-sm: 0.88rem;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-xs: 12px;
+}

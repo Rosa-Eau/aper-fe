@@ -1,0 +1,860 @@
+
+@import url("//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css");
+@import "https://cdn.jsdelivr.net/npm/font-kopubworld@1.0";
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+KR:400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Serif+KR&display=swap');
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  border: 2px solid black;
+}
+.dropdown-g:hover{
+  border: 2px solid black;
+}
+
+.dropdown-menu{
+  width: 220px;
+  border: 2px solid black;
+  height: 150px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: black white;
+
+}
+
+::-webkit-scrollbar {
+  border-radius: 10px;
+}
+
+.dropdown>.dropdown-toggle:active {
+ 
+    pointer-events: none;
+}
+
+.colorCh{
+  background-color: white;
+  color: black
+}
+.colorCh:hover{
+  background-color: white !important;
+  color: black;
+}
+
+.input-container-g {
+  position: relative;
+}
+
+.text-routine-g {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 24px; 
+ 
+  
+}
+
+.toast-container {
+  width: 352px;
+  font-size: 14px;
+  height: auto;
+  padding:  15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.toast-message {
+  margin: 0;
+}
+
+.text-routine-g {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  color: black; 
+  font-family:  Spoqa Han Sans Neo;
+}
+
+.custom-placeholder-g::placeholder {
+  color: #999;
+  font-size: 18px;
+  font-family: 'Your Preferred Font', sans-serif;
+  font-weight: 300;
+}
+
+.input-line-g {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000; 
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+
+.dropdown-container-g {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px; 
+}
+
+.genere-style{
+  color: #880d0d;
+}
+
+
+
+.dropdown-g {
+  width: 224px;
+  height: 48px;
+  margin-right: 10px; 
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #030202;
+  border-radius: 4px;
+}
+.dropdown-gg {
+  width: 254px;
+  height: 48px;
+  margin-right: 10px; 
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #030202;
+  border-radius: 4px;
+}
+
+
+.dropdown-g option {
+  height: 48px; 
+  width: 224px; 
+  font-size: 14px; 
+  color: #333; 
+  background-color: white;
+  padding: 5px 10px; 
+}
+.dropdown-g option:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.middle-content-g{
+  color: rgba(0, 0, 0, 0.20);
+font-size: 16px;
+background-color: #dee7e9; 
+font-weight: 500;
+line-height: 16px;
+word-wrap: break-word;
+width: 224px;
+height: 50px;
+text-align: center;
+padding-top: 20px;
+}
+
+.width-content-g{
+  width: 224px;
+  
+  margin-left: 230px;
+  margin-top: -20px;
+}
+
+.save-button-g{
+  display: flex;
+  width: 223px;
+  height: 48px;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  border-radius: 2px;
+  font-size: 15px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.middle-g{
+  margin-top: 14px;
+}
+.ic-arrow-right-g{
+color: white;
+margin-top:0px;
+margin-left: 10px;
+}
+
+.font{
+  font-family: KoPub Dotum;
+}
+
+.child-g
+.item-g{
+  position: absolute;
+  top: 24rem;
+  left: 39.81rem;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 1rem;
+  height: 5rem;
+  display: none;
+}
+.item-g{
+  top: 16.06rem;
+}
+.nolist-icon-g {
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.right-trail-g {
+  background-color: #000;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+.logo-icon-g {
+  position: relative;
+  width: 4.5rem;
+  height: 1.25rem;
+  object-fit: cover;
+}
+.left-trail-g {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.spacing-g{
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.ic-search-icon-g,
+.nosearch-icon-g{
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: cover;
+}
+.ic-search-icon-g {
+  width: 21.58px;
+
+  height: 21.58px;
+}
+.right-trail2-g {
+  width: 4.5rem;
+  height: 4.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.insung-yoon-gpcz1b3aeqk-unspla-icon-g {
+  position: absolute;
+  height: 293.61%;
+  width: 252.38%;
+  top: -96.02%;
+  right: -145.24%;
+  bottom: -97.59%;
+  left: -7.14%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.pic-fieldprof-15-g {
+  position: absolute;
+  top: calc(50% - 27px);
+  left: calc(50% - 21px);
+  width: 2.63rem;
+  height: 3.38rem;
+  overflow: hidden;
+}
+.field-list-imgfalsefalsethu-g {
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 4.13rem;
+  height: 1.88rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div1-g {
+  position: relative;
+  line-height: 0.88rem;
+  font-weight: 500;
+}
+.right-trail4-g{
+  height: 4.25rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  box-sizing: border-box;
+  gap: 0.5rem;
+}
+.ic-search-icon1-g {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.wrapper-g{
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.andre-blanco-3sakn9kdlhe-unspl-icon-g {
+  position: absolute;
+  height: 171%;
+  width: 135%;
+  top: -26%;
+  right: -5%;
+  bottom: -45%;
+  left: -30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.field-list-imgfalsefalsethu1-g {
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 2.75rem;
+  height: 2.13rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.right-trail6-g,
+.write-in-gnb-g {
+  height: 4.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.right-trail6-g {
+  display: none;
+  padding: 0.75rem 0.5rem;
+  gap: 0.5rem;
+}
+.write-in-gnb-g {
+  width: 4.5rem;
+  display: flex;
+  padding: 1.25rem;
+}
+.v-divider-16-invers-child-g {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.v-divider-16-invers-g{
+  align-self: stretch;
+  position: relative;
+  width: 0.06rem;
+}
+.name-g,
+.v-divider-16-invers-wrapper-g{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.v-divider-16-invers-wrapper-g {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0.75rem 1rem;
+}
+.name-g {
+  width: 2.5rem;
+  height: 1rem;
+  justify-content: flex-end;
+}
+.abhishek-tiwari-3zdxqud13bc-un-icon-g{
+  position: absolute;
+  height: 158%;
+  width: 118%;
+  top: 158%;
+  right: -127%;
+  bottom: -216%;
+  left: 109%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.field-writer-g,
+.gnb-2-g{
+  height: 4.5rem;
+  flex-direction: row;
+  align-items: center;
+}
+.field-writer-g {
+  width: 8.13rem;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.75rem 1.25rem;
+  box-sizing: border-box;
+  gap: 0.5rem;
+}
+.gnb-2-g {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  width: 90rem;
+  display: none;
+  justify-content: flex-start;
+}
+.a-p-e-g,
+.a-p-e-r-g {
+  position: relative;
+}
+.a-p-e-g {
+  letter-spacing: 0.29em;
+  line-height: 2.71rem;
+  display: none;
+}
+.a-p-e-r-g {
+  width: 2.38rem;
+  height: 2.38rem;
+  object-fit: cover;
+}
+.logo-area-g {
+  flex-shrink: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.7rem;
+}
+.logo-area1-g {
+  border-radius: 2px;
+  background-color: #000;
+  width: 0.25rem;
+  height: 4.25rem;
+  display: none;
+}
+.logo-minimal-icon-g {
+  position: relative;
+  width: 2.5rem;
+  height: 2.38rem;
+  object-fit: cover;
+}
+.logo-area-parent-g {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div4-g {
+  position: relative;
+  line-height: 2.38rem;
+}
+.container-g,
+.frame-group-g {
+  display: flex;
+  flex-direction: row;
+}
+.container-g {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.75rem;
+  color: #000;
+  font-family: "Spoqa Han Sans Neo";
+}
+.frame-group-g {
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 1.44rem;
+}
+.routine-child-g {
+  position: relative;
+  border-radius: 2px;
+  background-color: #fff;
+  width: 0.25rem;
+  height: 3.75rem;
+}
+.b-g,
+.div5-g {
+  position: relative;
+  line-height: 1.5rem;
+}
+.div5-g {
+  font-size: 1rem;
+  line-height: 1.38rem;
+  color: rgba(0, 0, 0, 0.36);
+}
+.parent-g{
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.25rem;
+}
+.routine-g,
+.routine-parent-g {
+  display: flex;
+  justify-content: flex-start;
+}
+.routine-g {
+  border-radius: 8px;
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 2rem 0 0;
+  gap: 0.75rem;
+}
+.routine-parent-g {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  text-align: center;
+  font-size: 1.13rem;
+  color: #000;
+  font-family: "Spoqa Han Sans Neo";
+}
+.frame-parent-g,
+.right-trail7-g {
+  position: absolute;
+  display: flex;
+}
+.frame-parent-g {
+  top: calc(50% - 200px);
+  left: calc(50% - 350px);
+  width: 43.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5rem;
+  font-size: 3.39rem;
+  font-family: "Noto Sans KR";
+}
+.right-trail7-g {
+  /* top: 13.94rem; */
+  right: -3rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+
+.toast-genere {
+  margin-top: -3rem;
+  margin-left: calc(50% - 350px);
+  /* margin-top: calc(50% - 200px); */
+  font-size: 0.97rem;
+  width: 700px;
+  height: 100px;
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  border: 2px solid rgb(186, 184, 184);
+  text-align: center;
+  align-items: center;
+  padding: 25px;
+  padding-left: 8.4rem;
+  padding-right: 8.4rem;
+}
+
+/* Media query for screens up to 768px */
+@media screen and (max-width: 768px) {
+  .toast-genere {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Media query for screens up to 420px */
+@media screen and (max-width: 420px) {
+  .toast-genere {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+.div-g {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.88rem;
+  color: #fff;
+  /* font-family: "Spoqa Han Sans Neo"; */
+}
+.routine-parent-g .routine-g{
+    width: 43.75rem;  
+    box-sizing: border-box; 
+   
+  }
+
+.routine-g:hover {
+    background-color: black;
+  }
+  
+  .routine-g:hover b {
+    color: white;
+  }
+  
+  .routine-g:hover .div5-g{
+    color: white;
+  }
+  .routine-child-g.hovered  {
+    background-color: black;
+    color: white;
+  }
+  
+ 
+  .routine-g:hover .additional-text-g {
+    display: block;
+    color: white;
+  }
+  
+  .additional-text-g {
+    display: none; 
+    color: white;
+    font-size: 14px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 500;
+    line-height: 14px;
+    word-wrap: break-word
+  }
+  .text-routine-g{
+    width: 100%;
+  }
+
+
+  .문체부 {
+    font-family: '문체부 바탕체', sans-serif;
+  }
+  
+  .KoPub {
+    font-family: 'KoPub바탕체', sans-serif;
+
+  }
+  
+  .NotoSerif {
+    font-family: 'Noto Serif KR', sans-serif;
+  }
+  
+  .NaverNanum {
+    font-family: '네이버 나눔명조', sans-serif;
+  }
+
+  
+  @media screen and (max-width: 768px) {
+    .routine-container {
+      padding: 1rem;
+    }
+    .frame-parent-g{
+      transform: scale(0.6);
+      top: 0%;
+    }
+    .right-trail7-g{
+      margin-left: -30px;
+    }
+  
+    .frame-parent {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .logo-area {
+      justify-content: center;
+    }
+  
+    .routine {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .routine-child {
+      width: 100%;
+      height: 0.25rem;
+    }
+  
+    .routine-info {
+      padding: 1rem;
+    }
+  
+    .additional-text {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .right-trail7 {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    .right-trail7-g{
+      margin-left: -100px;
+    }
+    .routine-container {
+      padding: 1rem;
+    }
+    .frame-parent-g{
+      transform: scale(0.5);
+      top: 0%;
+    }
+  
+    .frame-parent {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .logo-area {
+      justify-content: center;
+    }
+  
+    .routine {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .routine-child {
+      width: 100%;
+      height: 0.25rem;
+    }
+  
+    .routine-info {
+      padding: 1rem;
+    }
+  
+    .additional-text {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .right-trail7 {
+      display: block;
+    }
+    .dropdown-container-g {
+      width: 100%;
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+    .routine-parent1-g {
+      width: 100%; 
+    }
+    .dropdown-g{
+      width: 700px;
+    }
+  }
+
+
+
+  .font1{
+font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Spoqa Han Sans Neo;
+  }
+
+  
+  .font2{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: 
+    KoPub Batang;
+  }
+
+  
+  .font3{
+  font-family: Noto Serif KR;
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  
+  .font4{
+    font-family: 
+    Nanum Myeongjo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+  }
+
+  .fontGenre{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Spoqa Han Sans Neo;
+  }
+
+  .custom-style {
+
+    color: grey;
+  }
+  .genre-style{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: Spoqa Han Sans Neo;
+  }
+
+  @media screen and (max-width: 375px) {
+
+
+    .frame-parent-g{
+      transform: scale(0.4);
+      top: 0%;
+    }
+    .right-trail7-g{
+      margin-left: -100px;
+    }
+  }

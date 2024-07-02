@@ -1,0 +1,393 @@
+.div2-vm ,
+.icon-vm  {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon-vm  {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+.div2-vm  {
+  line-height: 1.38rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 6.25rem;
+}
+.div1-vm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+.div3-vm ,
+.parent-vm  {
+  align-self: stretch;
+  display: none;
+}
+.div3-vm  {
+  height: 1.38rem;
+}
+.parent-vm  {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+.title-vm ,
+.title1-vm  {
+  position: relative;
+  line-height: 1.75rem;
+}
+.title1-vm  {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 20.94rem;
+  max-width: 100%;
+}
+.frame-parent-vm ,
+.title-parent-vm  {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.25rem;
+  max-width: 100%;
+}
+.title-parent-vm  {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  font-size: 1.38rem;
+  color: #000;
+}
+.frame-parent-vm  {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.body-vm ,
+.p-vm ,
+.p1-vm ,
+.p2-vm ,
+.p3-vm  {
+  margin: 0;
+}
+.body-vm {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-family: "YoonV YoonMyungjo105Std_OTF";
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+}
+.div4-vm ,
+.div5-vm  {
+  position: relative;
+  line-height: 1rem;
+}
+.div4-vm  {
+  flex: 1;
+}
+.div5-vm  {
+  align-self: stretch;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: left;
+  display: none;
+  width: 3rem;
+  flex-shrink: 0;
+}
+.left-pagination-vm  {
+  width: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+}
+.v-divider-161-vm  {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.v-divider-16-vm  {
+  position: relative;
+  width: 0.06rem;
+  height: 2rem;
+}
+.div6-vm  {
+  position: relative;
+  line-height: 1rem;
+  color: #000;
+  text-align: left;
+}
+.viewer-mode-pagination-vm  {
+  margin: 0 !important;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1.5rem 2.25rem;
+  gap: 1.5rem;
+  z-index: 1;
+  text-align: right;
+  font-size: 0.75rem;
+  color: rgba(0, 0, 0, 0.8);
+}
+.ic-arrow-left-icon-vm  {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+.div7-vm  {
+  position: relative;
+  line-height: 1.19rem;
+}
+.logo-icon-vm  {
+  position: relative;
+  width: 4.5rem;
+  height: 1.25rem;
+  display: none;
+}
+.left-trail-vm  {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0.75rem;
+  gap: 0.25rem;
+  z-index: 1;
+  font-size: 0.88rem;
+}
+.left-page-vm ,
+.left-page-wrapper-vm  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.left-page-vm  {
+  align-self: stretch;
+  padding: 7.5rem 0 7.5rem 6.25rem;
+  box-sizing: border-box;
+  position: relative;
+  gap: 5rem;
+  min-height: 56.25rem;
+}
+.left-page-wrapper-vm  {
+  flex: 1;
+  min-width: 26.63rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+.div8-vm  {
+  position: relative;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  display: none;
+}
+.v-divider-163-vm  {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.v-divider-162-vm  {
+  position: relative;
+  width: 0.06rem;
+  height: 56.25rem;
+}
+.blank-line-vm ,
+.body1-vm ,
+.p4-vm ,
+.p5-vm  {
+  margin: 0;
+}
+.body1-vm  {
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.04em;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 16;
+  -webkit-box-orient: vertical;
+  width: 35.97rem;
+  flex-shrink: 0;
+  max-width: 100%;
+  padding-right: 1.25rem;
+}
+.body-wrapper-vm  {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.div10-vm ,
+.div9-vm  {
+  position: relative;
+  line-height: 1rem;
+}
+.div9-vm  {
+  flex: 1;
+}
+.div10-vm  {
+  align-self: stretch;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  display: none;
+  width: 3rem;
+  flex-shrink: 0;
+}
+.left-pagination1-vm ,
+.viewer-mode-pagination1-vm  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.left-pagination1-vm  {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+}
+.viewer-mode-pagination1-vm  {
+  background-color: #fff;
+  width: 7.5rem;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: left;
+  font-size: 0.75rem;
+  font-family: "Spoqa Han Sans Neo";
+}
+.div-vm ,
+.frame-group-vm {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frame-group-vm  {
+  flex: 1;
+  flex-direction: column;
+  gap: 2.5rem;
+  min-width: 26.63rem;
+  max-width: 100%;
+  text-align: justify;
+  font-size: 1.25rem;
+  font-family: "YoonV YoonMyungjo105Std_OTF";
+}
+.div-vm  {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0.06rem 0 0;
+  box-sizing: border-box;
+  gap: 3.94rem;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Spoqa Han Sans Neo";
+}
+@media screen and (max-width: 1125px) {
+  .div-vm  {
+    flex-wrap: wrap;
+    padding-left: 0.06rem;
+    padding-top: 0.06rem;
+    padding-bottom: 0.06rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .left-page-vm  {
+    padding-top: 4.88rem;
+    padding-bottom: 4.88rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .left-page-vm  {
+    gap: 2.5rem;
+    padding-left: 3.13rem;
+    box-sizing: border-box;
+  }
+  .frame-group-vm ,
+  .left-page-wrapper-vm  {
+    min-width: 100%;
+  }
+  .frame-group-vm  {
+    gap: 1.25rem;
+  }
+  .div-vm  {
+    gap: 1.94rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title-vm ,
+  .title1-vm  {
+    font-size: 1.13rem;
+    line-height: 1.38rem;
+  }
+  .body-vm  {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .viewer-mode-pagination-vm  {
+    flex-wrap: wrap;
+  }
+  .left-page-vm  {
+    gap: 1.25rem;
+    padding-left: 1.25rem;
+    padding-top: 3.19rem;
+    padding-bottom: 3.19rem;
+    box-sizing: border-box;
+  }
+  .body1-vm {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .div-vm {
+    gap: 1rem;
+  }
+}

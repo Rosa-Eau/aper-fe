@@ -1,0 +1,319 @@
+.container11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    /* padding: 6rem; */
+    padding-left: 7.8rem;
+    padding-right: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+
+  .backk{
+    background-color:black;
+    overflow-x: auto;
+    /* margin-top: -100px; */
+     /* margin-top: 50px */
+  }
+  
+  .card11 {
+    position: relative;
+    height: 500px;
+    width: 200px;
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: "YoonV YoonMyungjo105Std_OTF";
+  }
+
+
+  .card112 {
+    position: relative;
+    height: 400px;
+    width: 50px;
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .card113 {
+    position: relative;
+    border-radius: 50px;
+    height: 400px;
+    width: 100px;
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease-in-out;
+  }
+  .card113:hover{
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .vertical {
+    border-left: 2px solid rgb(214, 214, 214);
+    margin-top: -100px;
+    height: 430px;
+  }
+  .vertical-1 {
+    border-left: 5px solid rgb(8, 3, 3);
+    margin-top: 0px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 180px;
+ 
+  }
+  .card11:hover,
+  .card11.default-hover {
+    flex: 2 0 20px;
+    height: 400px;
+  }
+  
+  .card112:hover,
+    .card112.default-hover {
+    flex: 30 1 20px;
+    height: 400px;
+    width: 1200px;
+  }
+  .card113:hover,
+  .card113.default-hover {
+  flex: 30 1 20px;
+  height: 600px;
+  width: 800px;
+}
+
+
+  .arr-d img{
+    width: 20px;
+    height: 20px;
+  }
+  .card112.default-hover img {
+    height: 200px;
+    
+  }
+  .card113.hover img {
+    height: 200px;
+    
+  }
+ 
+ 
+  .card112.hovered img {
+    height: 200px;
+    
+  }
+
+  .card112 img{
+    height: 200px;
+  }
+  .card113 img{
+    height: 200px;
+  }
+  
+.iii{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+  .yy{
+    font-weight: 400;
+    color: black;
+    font-size: x-large;
+    margin-left: 20px;
+   
+  }
+  .card11 p {
+    /* height: 300px; */
+    width: 20px;
+    overflow: visible;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .card112 p {
+    /* height: 300px; */
+    width: 20px;
+    overflow: visible;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .card11 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+  
+  .card112 img {
+    width: 100%;
+    height: 400px;
+
+    object-fit: cover;
+  }
+
+
+  .card112 img:hover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card113 img:hover {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card11 .styleh1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card11 .styleh1 .f-details,
+  .card11 .styleh1 .rt {
+    display: none;
+    justify-content: space-between;
+  }
+  
+  .card11:hover .styleh1 .f-details,
+  .card11:hover .styleh1 .rt,
+  .card11.default-hover .styleh1 .f-details,
+  .card11.default-hover .styleh1 .rt,
+  .card11:hover .styleh1 .m1-details,
+  .card11.default-hover .styleh1 .m1-details {
+    display: flex;
+  }
+  
+  .card11 .styleh1 .f-details p,
+  .card11 .styleh1 .rt p,
+  .card11 .styleh1 .m1-details p {
+    margin: 0;
+  }
+  
+  .thecontent{
+    margin-left: 80px;
+    font-size: 14px;
+    color: black;
+    font-weight: 800;
+
+    
+  }
+  .bck{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  .ic-arr{
+    width: 10px;
+    height: 10px;
+  }
+  .theroutine{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1)
+  }
+
+  .thedate{
+    font-size: 14px;
+    font-weight: 200;
+    color: grey;
+  }
+
+  .mainmen{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .p-left{
+    /* text-decoration: underline; */
+    line-height: 0.88rem;
+    font-weight: 800;
+    color: black    ;
+    margin-top: 00px;
+    width: 100%;
+
+  }
+  .win{
+    margin-top: 20%;
+  }
+  .rt{
+    color: black;
+  }
+  .f-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+  .sth1{
+    margin-top: 150px;
+  }
+  .content-container{
+    display: flex;
+    flex-direction: row;
+    flex: 2 6;
+    margin-top: 3%;
+  }
+  .content-container img{
+    width: 20px;
+    height: 20px;
+  }
+
+.arr-d{
+  font-size: 14px;
+  text-decoration: underline;
+  margin-top: 30px;
+  cursor: pointer;
+}
+  .content-container-1{
+    width: 100px;
+    height: 300px;
+    margin-top: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  }
+  .card11 .styleh1 .f-details .p-left , 
+  .card11 .styleh1 .rt  .p-left , 
+  .card11 .styleh1 .f-details .p-right {
+    text-align: left;
+  }
+  
+  .card11 .styleh1 .m1-details .p-left,
+  .card11 .styleh1 .m1-details .p-right {
+    text-align: right;
+  }
+  
+  #card1:hover + .description,
+  #card1.default-hover + .description {
+    display: block;
+    color: black;
+  }
+  
+  .description {
+    display: none;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 2s ease;
+  }
+  
+  .container11 .card11:first-child:hover,
+  .med .card11.default-hover:hover {
+    flex: 2 0 20px;
+    height: 370px;
+    /* Add other styles as needed for the hovered state */
+  }
+  
+ 

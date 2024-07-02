@@ -1,0 +1,2230 @@
+.nolist-icon-viewmore {
+    position: relative;
+    width: 2.25rem;
+    height: 2.25rem;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  
+  .right-trail-viewmore {
+    background-color: #000;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  .logo-icon-viewmore {
+    position: relative;
+    width: 4.5rem;
+    height: 1.25rem;
+  }
+  
+  .left-trail-viewmore {
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+  }
+  
+  .spacing-viewmore {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  
+  .nosearch-icon-viewmore {
+    position: relative;
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  .right-trail1-viewmore {
+    background-color: #000;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  .ic-search-icon-viewmore {
+    position: relative;
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: cover;
+  }
+  
+  .right-trail2-viewmore {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem 1.75rem 1rem 1rem;
+  }
+  
+  .ic-write-icon-viewmore {
+    position: relative;
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: cover;
+  }
+  
+  .right-trail3-viewmore {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem 1.75rem 1rem 1rem;
+  }
+  
+  .pic-fieldprof-15-icon-viewmore {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu-viewmore {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 4.13rem;
+    height: 1.88rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .div-viewmore {
+    position: relative;
+    line-height: 0.88rem;
+    font-weight: 500;
+  }
+  .right-trail4-viewmore {
+    height: 4.25rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0.94rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  
+  .ic-search-icon1-viewmore {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+  }
+  
+  .right-trail5-viewmore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+  }
+  
+  .div1-viewmore {
+    position: relative;
+    line-height: 0.88rem;
+    font-weight: 500;
+  }
+  
+  .wrapper-viewmore {
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+  }
+  
+  .pic-fieldprof-08-icon-viewmore {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu1-viewmore {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .right-trail6-viewmore {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 0.44rem;
+    gap: 0.5rem;
+  }
+  
+  .ic-write-icon1-viewmore {
+    position: relative;
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: cover;
+  }
+  
+  .write-in-gnb-viewmore {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  
+  .v-divider-16-invers-child-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  .v-divider-16-invers-viewmore {
+    position: relative;
+    width: 0.06rem;
+    height: 3rem;
+  }
+  
+  .v-divider-16-invers-wrapper-viewmore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+  }
+  
+  .div2-viewmore {
+    position: relative;
+    line-height: 0.88rem;
+    font-weight: 500;
+  }
+  
+  .name-viewmore {
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 0 0.06rem;
+    box-sizing: border-box;
+  }
+  
+  .pic-fieldprof-10-icon-viewmore {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu2-viewmore {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-writer-viewmore,
+  .gnb-2-viewmore {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .field-writer-viewmore {
+    height: 4.5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.75rem 1.25rem 0.75rem 1.13rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  
+  .gnb-2-viewmore {
+    width: 90rem;
+    display: none;
+    justify-content: flex-start;
+    row-gap: 20px;
+    max-width: 100%;
+  }
+  
+  .aper-viewmore,
+  .b-viewmore {
+    position: relative;
+  }
+  
+  .aper-viewmore {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  
+  .b-viewmore {
+    line-height: 1.19rem;
+    white-space: nowrap;
+  }
+  
+  .routine-viewmore {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    max-width: 100%;
+    text-align: left;
+    font-size: 0.88rem;
+  }
+  
+  .ic-write-icon2-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div3-viewmore {
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  
+  .text-viewmore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 0 0.25rem;
+  }
+  
+  .ic-share-icon-viewmore {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+  }
+  
+  .label-button-viewmore {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.38rem 0.25rem;
+  }
+  
+  .ic-hamburger-icon-viewmore {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+  }
+  
+  .div4-viewmore,
+  .text1-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div4-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  
+  .text1-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nowrite-icon-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    display: none;
+  }
+  
+  .label-button1-viewmore {
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+  }
+  
+  .interface-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.63rem;
+    max-width: 100%;
+  }
+  
+  .b1-viewmore,
+  .title2-viewmore {
+    position: relative;
+    line-height: 2.38rem;
+  }
+  
+  .b1-viewmore {
+    align-self: stretch;
+    display: none;
+    width: 3.19rem;
+    flex-shrink: 0;
+  }
+  .title2-viewmore {
+    margin: 0;
+    flex: 1;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+  
+  .title-viewmore,
+  .title1-viewmore {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .title1-viewmore {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    text-align: left;
+    font-size: 1.75rem;
+  }
+  
+  .title-viewmore {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .pic-fieldprof-08-icon1-viewmore {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .b2-viewmore,
+  .field-list-imgfalsefalsethu3-viewmore {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-list-imgfalsefalsethu3-viewmore {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  
+  .b2-viewmore {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb-viewmore {
+    width: 7.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon2-viewmore {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu4-viewmore {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b3-viewmore {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb1-viewmore {
+    flex: 1;
+    height: 2.13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.06rem 0 0.06rem 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .instance1-viewmore {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .text2-viewmore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+  }
+  
+  .div5-viewmore {
+    
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .datefield-viewmore {
+    width: 1.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+    box-sizing: border-box;
+  }
+  
+  .text-child-viewmore {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .text3-viewmore {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+  }
+  
+  .div6-viewmore,
+  .div7-viewmore,
+  .div8-viewmore {
+    position: relative;
+    line-height: 1.19rem;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div6-viewmore {
+    flex: 1;
+  }
+  
+  .div7-viewmore,
+  .div8-viewmore {
+    align-self: stretch;
+    display: none;
+  }
+  
+  .date-viewmore {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .fear-of-driving-viewmore,
+  .fear-of-driving1-viewmore {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving-viewmore {
+    white-space: nowrap;
+  }
+  
+  .fear-of-driving1-viewmore {
+    color: #000;
+  }
+  
+  .duie-date-viewmore,
+  .genre-date-for-story-viewmore {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .duie-date-viewmore {
+    flex: 1;
+    height: 1.38rem;
+    display: none;
+    gap: 0.25rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story-viewmore {
+    width: 17.5rem;
+    display: flex;
+    gap: 0.75rem;
+    font-size: 0.88rem;
+  }
+  
+  .story-cover-viewer-viewmore,
+  .wrap-viewmore {
+    display: flex;
+    max-width: 100%;
+  }
+  
+  .wrap-viewmore {
+    width: 46.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6.25rem 1.25rem 3rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  
+  .story-cover-viewer-viewmore {
+    align-self: stretch;
+    /* background-color: #fff; */
+    background-color: transparent;
+    z-index: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-icon1-viewmore {
+    position: relative;
+    width: 4.5rem;
+    height: 1.25rem;
+  }
+  
+  .left-trail1-viewmore {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.63rem 1.5rem;
+  }
+  
+  .spacing1-viewmore {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  
+  .v-divider-161-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .v-divider-16-viewmore {
+    position: relative;
+    width: 0.06rem;
+    height: 3rem;
+  }
+  
+  .divider-viewmore {
+    background-color: #fff;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+  }
+  
+  .ic-search-icon2-viewmore {
+    position: relative;
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: cover;
+  }
+  
+  .search-in-gnb-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.25rem 1.5rem 1.25rem 1.25rem;
+  }
+  
+  .ic-write-icon3-viewmore {
+    position: relative;
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: cover;
+  }
+  
+  .write-in-gnb1-viewmore {
+    align-self: stretch;
+    background-color: #fff;
+    width: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  
+  .div9-viewmore {
+    position: relative;
+    line-height: 0.88rem;
+    font-weight: 500;
+  }
+  
+  .name1-viewmore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.06rem 0 0.06rem 0.06rem;
+  }
+  
+  .pic-fieldprof-10-icon1-viewmore {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu5-viewmore {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-writer1-viewmore {
+    flex: 1;
+    background-color: #fff;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.25rem 1.13rem 1.25rem 1.25rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+  
+  .instance-viewmore,
+  .new-gnb-viewmore,
+  .searchgnb-viewmore {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .searchgnb-viewmore {
+    width: 17.13rem;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .instance-viewmore,
+  .new-gnb-viewmore {
+    max-width: 100%;
+  }
+  
+  .new-gnb-viewmore {
+    background-color: #fff;
+    height: 4.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.25rem;
+    z-index: 2;
+    margin-top: -17.5rem;
+    font-size: 0.88rem;
+  }
+  
+  .instance-viewmore {
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 17.75rem;
+    text-align: left;
+    font-size: 0.75rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .h-divider-20-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-16-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .text-input-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+    
+  }
+  
+  .h-divider-201-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-161-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+    display: none;
+  }
+  
+  .h-divider-202-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-162-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .b4-viewmore {
+    position: relative;
+    line-height: 1.75rem;
+  }
+  .new-div{
+    top: 0%;
+    z-index: 9999
+  }
+  .fixed-divv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    background-color: #ffffff; /* Background color of the fixed div */
+    padding: 10px; /* Adjust padding as needed */
+    z-index: 999; /* Ensure it's above other content */
+    display: none; 
+  }
+  .fixed-divv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    background-color: #ffffff; /* Background color of the fixed div */
+    padding: 10px; /* Adjust padding as needed */
+    z-index: 999; /* Ensure it's above other content */
+    display: none; 
+  }
+  
+  .fixed-divv.visible {
+    display: block; 
+    z-index: 9999;
+    width: 300px;
+    background-color: transparent;
+    margin-left: 420px;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+  .fixed-divv.visible1 {
+    display: block; 
+    z-index: 9999;
+    width: 100%;
+    background-color: white;
+    padding-left: 100px;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+  
+  .h3-viewmore,
+  .title3-viewmore {
+    max-width: 100%;
+  }
+  .h3-viewmore {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    height: 2rem;
+    min-width: 15.06rem;
+  }
+  
+  .title3-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.94rem 0 0;
+    box-sizing: border-box;
+    gap: 0.25rem;
+  }
+  
+  .div10-viewmore,
+  .div11-viewmore,
+  .episodedatebody-viewmore {
+    position: relative;
+    line-height: 1.19rem;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .episodedatebody-viewmore {
+    flex: 1;
+    margin-top: 30px;
+  }
+  
+  .div10-viewmore,
+  .div11-viewmore {
+    align-self: stretch;
+    display: none;
+  }
+  
+  .date1-viewmore {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 0.88rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .p-viewmore,
+  .p1-viewmore {
+    margin: 0;
+  }
+  .p-viewmore{
+    cursor: pointer;
+    /* width: 700px; */
+    /* overflow-y: auto;
+    overflow: hidden; */
+  }
+  
+  .body-viewmore,
+  .div12-viewmore {
+    max-width: 100%;
+  }
+  
+  .div12-viewmore {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    text-wrap: wrap;
+    overflow: hidden;
+    margin-top: 20px;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .body-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  
+  .ic-enter-arrow-icon-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+  }
+  
+  .b5-viewmore {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .underline-icon-viewmore {
+    position: relative;
+    width: 2.63rem;
+    height: 0.06rem;
+  }
+  
+  .text4-viewmore {
+    height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.88rem;
+  }
+  
+  .spacing-4-viewmore {
+    flex: 1;
+    position: relative;
+    height: 0.25rem;
+    min-width: 26rem;
+    max-width: 100%;
+  }
+  
+  .ic-write-icon4-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div13-viewmore,
+  .text5-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div13-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text5-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nochevron-right-s-icon-viewmore {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .label-button2-viewmore {
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+  }
+  
+  .ic-write-icon5-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div14-viewmore,
+  .text6-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div14-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text6-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nowrite-icon1-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    display: none;
+  }
+  
+  .label-button3-viewmore {
+    border-radius: 4px;
+    height: 1.75rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    box-sizing: border-box;
+  }
+  .button-area-viewmore,
+  .list-viewmore {
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .button-area-viewmore {
+    align-self: stretch;
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.38rem 0;
+    min-height: 2.25rem;
+    row-gap: 20px;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  
+  .list-viewmore {
+    width: 46.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1.25rem;
+    gap: 1.5rem;
+    overflow-y: auto;
+  }
+  
+  .h-divider-203-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-163-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .episode-list-in-story-viewer-viewmore,
+  .h-divider-16-parent-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  
+  .episode-list-in-story-viewer-viewmore {
+    align-items: center;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+  }
+  
+  .h-divider-16-parent-viewmore {
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 1.38rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .b6-viewmore {
+    position: relative;
+    line-height: 1.75rem;
+  }
+  
+  .h31-viewmore,
+  .title4-viewmore {
+    max-width: 100%;
+  }
+  
+  .h31-viewmore {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    height: 2rem;
+    min-width: 2.88rem;
+  }
+  
+  .title4-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.94rem 0 0;
+    box-sizing: border-box;
+    gap: 0.25rem;
+  }
+  
+  .div15-viewmore,
+  .div16-viewmore,
+  .frame-viewmore {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .frame-viewmore {
+    flex: 1;
+  }
+  
+  .div15-viewmore,
+  .div16-viewmore {
+    align-self: stretch;
+    display: none;
+  }
+  
+  .date2-viewmore {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 0.88rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .p2-viewmore,
+  .p3-viewmore {
+    margin: 0;
+  }
+  
+  .div17-viewmore {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  
+  .body1-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  
+  .ic-enter-arrow-icon1-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+  }
+  
+  .b7-viewmore {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .underline-icon1-viewmore {
+    position: relative;
+    width: 2.63rem;
+    height: 0.06rem;
+  }
+  
+  .text7-viewmore {
+    height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.88rem;
+  }
+  
+  .spacing-41-viewmore {
+    flex: 1;
+    position: relative;
+    height: 0.25rem;
+    min-width: 26rem;
+    max-width: 100%;
+  }
+  
+  .ic-write-icon6-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div18-viewmore,
+  .text8-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div18-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text8-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nochevron-right-s-icon1-viewmore {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .label-button4-viewmore {
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+  }
+  
+  .ic-write-icon7-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div19-viewmore,
+  .text9-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div19-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text9-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nowrite-icon2-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    display: none;
+  }
+  
+  .label-button5-viewmore {
+    border-radius: 4px;
+    height: 1.75rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .button-area1-viewmore,
+  .list1-viewmore {
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .button-area1-viewmore {
+    align-self: stretch;
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.38rem 0;
+    min-height: 2.25rem;
+    row-gap: 20px;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  
+  .list1-viewmore {
+    width: 46.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1.25rem;
+    gap: 1.5rem;
+  }
+  
+  .h-divider-204-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-164-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .episode-list-in-story-viewer1-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 1.38rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .b8-viewmore {
+    position: relative;
+    line-height: 1.75rem;
+  }
+  
+  .h32-viewmore,
+  .title5-viewmore {
+    max-width: 100%;
+  }
+  
+  .h32-viewmore {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    height: 2rem;
+    min-width: 6.44rem;
+  }
+  
+  .title5-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.94rem 0 0;
+    box-sizing: border-box;
+    gap: 0.25rem;
+  }
+  
+  .div20-viewmore,
+  .div21-viewmore,
+  .div22-viewmore {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div20-viewmore {
+    flex: 1;
+  }
+  .div21-viewmore,
+  .div22-viewmore {
+    align-self: stretch;
+    display: none;
+  }
+  
+  .date3-viewmore {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 0.88rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .p4-viewmore,
+  .p5-viewmore {
+    margin: 0;
+  }
+  
+  .div23-viewmore {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  
+  .body2-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  
+  .ic-enter-arrow-icon2-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+  }
+  
+  .b9-viewmore {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .underline-icon2-viewmore {
+    position: relative;
+    width: 2.63rem;
+    height: 0.06rem;
+  }
+  
+  .text10-viewmore {
+    height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.88rem;
+  }
+  
+  .spacing-42-viewmore {
+    flex: 1;
+    position: relative;
+    height: 0.25rem;
+    min-width: 26rem;
+    max-width: 100%;
+  }
+  
+  .ic-write-icon8-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div24-viewmore,
+  .text11-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div24-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text11-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nochevron-right-s-icon2-viewmore {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .label-button6-viewmore {
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+  }
+  
+  .ic-write-icon9-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div25-viewmore,
+  .text12-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div25-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text12-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nowrite-icon3-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    display: none;
+  }
+  
+  .label-button7-viewmore {
+    border-radius: 4px;
+    height: 1.75rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .button-area2-viewmore,
+  .list2-viewmore {
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .button-area2-viewmore {
+    align-self: stretch;
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.38rem 0;
+    min-height: 2.25rem;
+    row-gap: 20px;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  
+  .list2-viewmore {
+    width: 46.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1.25rem;
+    gap: 1.5rem;
+  }
+  
+  .h-divider-205-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-165-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .episode-list-in-story-viewer2-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 1.38rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .b10-viewmore {
+    position: relative;
+    line-height: 1.75rem;
+  }
+  
+  .h33-viewmore,
+  .title6-viewmore {
+    max-width: 100%;
+  }
+  
+  .h33-viewmore {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    height: 2rem;
+    min-width: 7.44rem;
+  }
+  
+  .title6-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.94rem 0 0;
+    box-sizing: border-box;
+    gap: 0.25rem;
+  }
+  
+  .div26-viewmore,
+  .div27-viewmore,
+  .div28-viewmore {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div26-viewmore {
+    flex: 1;
+  }
+  
+  .div27-viewmore,
+  .div28-viewmore {
+    align-self: stretch;
+    display: none;
+  }
+  
+  .date4-viewmore {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    font-size: 0.88rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .p6-viewmore,
+  .p7-viewmore {
+    margin: 0;
+  }
+  .div29-viewmore {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  
+  .body3-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  
+  .ic-enter-arrow-icon3-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+  }
+  
+  .b11-viewmore {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .underline-icon3-viewmore {
+    position: relative;
+    width: 2.63rem;
+    height: 0.06rem;
+  }
+  
+  .text13-viewmore {
+    height: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.88rem;
+  }
+  
+  .spacing-43-viewmore {
+    flex: 1;
+    position: relative;
+    height: 0.25rem;
+    min-width: 26rem;
+    max-width: 100%;
+  }
+  
+  .ic-write-icon10-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div30-viewmore,
+  .text14-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div30-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text14-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nochevron-right-s-icon3-viewmore {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+  .label-button8-viewmore {
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+  }
+  
+  .ic-write-icon11-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    object-fit: cover;
+    display: none;
+  }
+  
+  .div31-viewmore,
+  .text15-viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .div31-viewmore {
+    align-self: stretch;
+    position: relative;
+    line-height: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .text15-viewmore {
+    height: 0.75rem;
+    flex-direction: row;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .nowrite-icon4-viewmore {
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    display: none;
+  }
+  
+  .label-button9-viewmore {
+    border-radius: 4px;
+    height: 1.75rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38rem 0.25rem;
+    box-sizing: border-box;
+  }
+  
+  .button-area3-viewmore,
+  .list3-viewmore {
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .button-area3-viewmore {
+    align-self: stretch;
+    border-radius: 4px;
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0.38rem 0;
+    min-height: 2.25rem;
+    row-gap: 20px;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  
+  .list3-viewmore {
+    width: 46.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 1.25rem;
+    gap: 1.5rem;
+  }
+  
+  .h-divider-206-viewmore {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-166-viewmore {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .episode-list-in-story-viewer3-viewmore {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 1.38rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .frame-container-viewmore,
+  .list-frame-viewmore {
+    /* background-color: #fff; */
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .list-frame-viewmore {
+    flex: 1;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  
+  .episode-1{
+    margin-top: 50px;
+  }
+  .frame-container-viewmore {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 0 6.19rem;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #fff;
+    font-family: "Spoqa Han Sans Neo";
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 725px) {
+    .episode-list-in-story-viewer-viewmore,
+    .episode-list-in-story-viewer1-viewmore,
+    .episode-list-in-story-viewer2-viewmore,
+    .episode-list-in-story-viewer3-viewmore {
+      gap: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .spacing-4-viewmore,
+    .spacing-41-viewmore,
+    .spacing-42-viewmore,
+    .spacing-43-viewmore {
+      min-width: 100%;
+    }
+  
+    .list-frame-viewmore {
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .field-list-imgfalsefalsethu1-viewmore {
+      width: calc(100% - 40px);
+    }
+  
+    .gnb-2-viewmore {
+      flex-wrap: wrap;
+    }
+  
+    .b10-viewmore,
+    .b4-viewmore,
+    .b6-viewmore,
+    .b8-viewmore,
+    .h3-viewmore,
+    .h31-viewmore,
+    .h32-viewmore,
+    .h33-viewmore {
+      font-size: 1.13rem;
+      line-height: 1.38rem;
+    }
+  }
+  
+  .auth-nam1{
+    font-size: 14px;
+    font-weight: 500;
+  }

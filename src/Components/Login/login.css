@@ -1,0 +1,713 @@
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.parrish-freeman-imidyuvbole-un-icon-login {
+    height: 150%;
+    top: 0;
+    bottom: -58.35%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .cover-login,
+  .cover1-login,
+  .parrish-freeman-imidyuvbole-un-icon-login,
+  .pic-fieldprof-02-login {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+  }
+  .pic-fieldprof-02-login {
+    top: calc(50% - 538.5px);
+    height: 67.38em;
+    overflow: hidden;
+  }
+  .cover-login,
+  .cover1-login {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+  }
+  .cover-login {
+    background-color: rgba(0, 0, 0, 0.36);
+  }
+  .p{
+    font-size: 12px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 400;
+line-height: 24px;
+word-wrap: break-word;
+    color: white;
+  }
+  .cover1-login {
+    border: 0;
+    background-color: transparent;
+    background: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.1));
+    opacity: 0.2;
+  }
+  /* .overview-field-img-login {
+    position: absolute;
+    top: 0.13em;
+    left: 0.13em;
+    border-radius: 12px;
+    width: 89.81em;
+    height: 56.06em;
+    overflow: hidden;
+    background-size: 100% 100%;
+    
+  } */
+ 
+  .overview-field-img-login {
+    position: absolute;
+    /* top: 0.13em;
+    left: 0.13em; */
+    /* border-radius: 12px; */
+    
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden;
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+  .logo-icon-login {
+    position: absolute;
+    top: 25.94em;
+    left: calc(50% - 483px);
+    width: 9em;
+    height: 2.5em;
+    margin-top: -100px;
+  }
+  .heading-login {
+    color: black;
+    font-size: 22px;
+    font-family: Spoqa Han Sans Neo;
+    font-weight: 700;
+    line-height: 28px;
+    word-wrap: break-word
+  }
+  .tint-login {
+    position: absolute;
+    height: 150%;
+    width: 137.4%;
+    top: -25%;
+    right: -20.61%;
+    bottom: -25%;
+    left: -16.79%;
+    background-color: #000;
+  }
+  .ic-arrow-left1-login {
+    position: absolute;
+    height: 66.67%;
+    width: 72.78%;
+    top: 16.67%;
+    right: 14.44%;
+    bottom: 16.67%;
+    left: 12.78%;
+  }
+  .background-image-1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/public/images/one1.png);
+    /* background-image: url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def4.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: changeImage 30s linear infinite;
+  }
+  @keyframes changeImage{
+    0%{
+       background-image: url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def1.png");
+      /*background-image: url(/public/images/one1.png);*/
+    }
+    20%{
+       background-image:url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def2.png");
+      /*background-image: url(/public/images/two2.png);*/
+    }
+     40%{
+     background-image: url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def4.png");
+     /* background-image: url(/public/images/def3.png);*/
+    }
+    60%{
+       background-image: url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def4.png");
+    /*  background-image: url(/public/images/three3.png);*/
+    }
+    80%{
+       background-image: url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def5.png");
+      /*background-image: url(/public/images/four4.png);*/
+    }
+    100%{
+       background-image: url("https://aper-files.s3.ap-northeast-2.amazonaws.com/def1.png");
+     /* background-image: url(/public/images/five5.png);*/
+    }
+  }
+
+
+  .ic-arrow-left-login {
+    position: relative;
+    width: 0.9em;
+    height: 0.9em;
+    padding-right: 30px;
+  }
+  .div1-login {
+    color: black;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 500;
+line-height: 14px;
+word-wrap: break-word
+  }
+  .text-login {
+    color: white;
+font-size: 16px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 500;
+line-height: 16px;
+word-wrap: break-word
+  }
+  .nowrite-icon-login {
+    position: relative;
+    width: 1.13em;
+    height: 1.13em;
+    display: none;
+  }
+  .label-button-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    height: 2.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38em 0.75em;
+    box-sizing: border-box;
+  }
+  .group-wrapper-login,
+  .label-button-wrapper-login {
+    width: 4.75em;
+    height: 2.25em;
+    display: none;
+  }
+  .label-button-wrapper-login {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .group-wrapper-login {
+    position: relative;
+    text-align: center;
+  }
+  .heading-parent-login {
+    background-color: #fff;
+    width: 21.25em;
+    height: 2.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .div2-login {
+    position: relative;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    font-weight: 500;
+  }
+  .label-login {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tint1-login {
+    position: absolute;
+    /* top: calc(50% - 12.2px);
+    left: calc(50% - 12px);
+    
+    width: 1.5em;
+    height: 1.5em; */
+  }
+  .ic-user1-login {
+    position: absolute;
+    height: 73%;
+    width: 75%;
+    top: 14.5%;
+    right: 12.5%;
+    bottom: 12.5%;
+    left: 12.5%;
+  }
+  .ic-user-login {
+    position: relative;
+    width: 1.25em;
+    height: 1.25em;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .left-tails-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.88em;
+  }
+  .dots-child-login {
+    position: relative;
+    border-radius: 50%;
+    background-color: #000;
+    width: 0.38em;
+    height: 0.38em;
+  }
+  .dots-login {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.25em;
+  }
+  .placeholder-login-login {
+    color: rgba(0, 0, 0, 0.60);
+font-size: 16px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 400;
+line-height: 22px;
+word-wrap: break-word
+  }
+  .spacing-login {
+    flex: 1;
+    position: relative;
+    height: 0.5em;
+  }
+  .nodelete-icon-login {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .rightarea-login {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em;
+  }
+  .input1-login,
+  .line-login {
+    align-self: stretch;
+  }
+  .input1-login {
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .line-login {
+    position: relative;
+    background-color: #000;
+    height: 0.13em;
+  }
+  .input-login {
+    width: 21.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ic-pw1-login,
+  .tint2-login {
+    position: absolute;
+  }
+  .tint2-login {
+    /* height: 126.58%;
+    width: 126.58%;
+    top: -13.29%;
+    right: -13.29%;
+    bottom: -13.29%;
+    left: -13.29%; */
+    
+  }
+  .ic-pw1-login {
+    height: 79%;
+    width: 79%;
+    top: 10.5%;
+    right: 10.5%;
+    bottom: 10.5%;
+    left: 10.5%;
+  }
+  .value-login {
+    flex: 1;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .div4-login,
+  .value-login {
+    position: relative;
+    font-size: 1em;
+    line-height: 1.38em;
+    display: none;
+  }
+  .novisible-icon-login {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .rightarea1-login {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em;
+    color: #000;
+  }
+  .tint3-login {
+    position: absolute;
+    height: 119.76%;
+    width: 119.76%;
+    top: -10.18%;
+    right: -9.58%;
+    bottom: -9.58%;
+    left: -10.18%;
+    background-color: #000;
+  }
+  .ic-write1-login {
+    position: absolute;
+    height: 83.5%;
+    width: 83.5%;
+    top: 8.5%;
+    right: 8%;
+    bottom: 8%;
+    left: 8.5%;
+  }
+  .div5-login,
+  .ic-write-login {
+    position: relative;
+  }
+  .ic-write-login {
+    width: 1.25em;
+    height: 1.25em;
+    display: none;
+  }
+  .div5-login {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 500;
+  }
+  .label-button1-login {
+    align-self: stretch;
+   
+    background-color: #000;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38em 1em;
+   margin-top: -20px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .aper-login {
+    position: relative;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    display: none;
+  }
+  .aper-wrapper-login {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tint4-login {
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    top: -10%;
+    right: -10%;
+    bottom: -10%;
+    left: -10%;
+    background-color: #000;
+  }
+  .ic-write3-login,
+  .tint5-login {
+    position: absolute;
+    height: 83.33%;
+    width: 83.33%;
+    top: 8.33%;
+    right: 8.33%;
+    bottom: 8.33%;
+    left: 8.33%;
+  }
+  .tint5-login {
+    height: 171.43%;
+    width: 281.25%;
+    top: -36.19%;
+    right: -87.5%;
+    bottom: -35.24%;
+    left: -93.75%;
+  }
+  .ic-chevron-right-s1-login {
+    position: absolute;
+    height: 58.33%;
+    width: 35.56%;
+    top: 21.11%;
+    right: 31.11%;
+    bottom: 20.56%;
+    left: 33.33%;
+  }
+  .frame-parent-login,
+  .label-button2-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .label-button2-login {
+    margin-left: 30px;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 2.25em;
+    justify-content: center;
+    padding: 0.38em 0.75em;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .frame-parent-login {
+    justify-content: flex-start;
+    gap: 0.25em;
+  }
+  .contents-inner-login,
+  .input-parent-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-parent-login {
+    justify-content: flex-start;
+    gap: 1.56em;
+  }
+  .contents-inner-login {
+    justify-content: center;
+  }
+  .contents-login,
+  .div-login {
+    background-color: #fff;
+  }
+  .contents-login {
+    position: absolute;
+    top: calc(50% - 240px);
+    left: 50.25em;
+    border-radius: 8px;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.25em 3.5em;
+    box-sizing: border-box;
+    gap: 2.25em;
+    text-align: left;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .div-login {
+    position: relative;
+    width: 100%;
+    height: 56.25em;
+    overflow: hidden;
+    /* background-attachment: fixed; */
+  }
+
+  
+@media screen and (max-width: 1290px) {
+    .contents-login {
+      transform: scale(0.9);
+      left: 50%;
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 950px) {
+    .contents-login {
+      transform: scale(0.9);
+      /* left: 5%; */
+      padding: 2.25em;
+    }
+  
+  
+  }
+  @media screen and (max-width: 850px) {
+    .contents-login {
+      left: 5%;
+      padding: 2.25em;
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 720px) {
+    .contents-login {
+      left: 5%;
+      padding: 2.25em;
+    }
+  
+   
+  }
+  
+  @media screen and (max-width: 430px) {
+    .contents-login {
+   
+      left: 5%;
+      padding: 1em;
+    }
+  
+
+  }@media screen and (max-width: 390px) {
+    .contents-login {
+      transform: scale(0.9);
+      /* left: 5%; */
+      padding: 1em;
+      width: 358px;
+      height: 608px;
+      bottom: 10%;
+    }
+  
+
+  }
+  @media screen and (max-width: 360px) {
+    .contents-login {
+      transform: scale(0.8);
+      /* left: 5%; */
+      padding: 1em;
+      width: 358px;
+      height: 608px;
+      bottom: 10%;
+    }
+  
+
+  }
+  @media screen and (max-width: 301px) {
+    .contents-login {
+      transform: scale(0.6);
+      /* left: 1%; */
+      right: 4%;
+      padding: 1em;
+      width: 358px;
+      height: 608px;
+      bottom: 10%;
+    }
+  
+
+  }
+  
+  .custom-link-login{
+    text-decoration: none; 
+    color:black
+  }
+ 
+
+
+  .label-error{
+  color: #FF3D00;
+font-size: 14px;
+font-family: Spoqa Han Sans Neo;
+font-weight: 500;
+line-height: 19px;
+word-wrap: break-word;
+  }
+
+
+  .nocheck-parent,
+.toast {
+  display: flex;
+  justify-content: flex-start;
+}
+.nocheck-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.div7{
+  color: white;
+}
+
+
+.toast1 {
+  position: absolute;
+  top: 36.25rem;
+  margin-left: 350px;
+  /* left: calc(50% - 206px); */
+  border-radius: 4px;
+  background-color: #000;
+  width: 25.75rem;
+  height: 4rem;
+  /* flex-direction: column; */
+  align-items: flex-start;
+   padding: 0.5rem; 
+  box-sizing: border-box;
+  font-size: 1.13rem;
+  color: white;
+}
+
+@media (max-width: 750px) {
+  .toast1 {
+    margin-left: 10px;
+    width: 90%;
+    margin-top: 90px; 
+  }
+}
+
+
+  
+.slider11 {
+  position: relative;
+  height: 100vh;
+}
+
+.image11 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.slide11 {
+  position: absolute;
+  inset: 0;
+}
+
+.active1 {
+  opacity: 1;
+  transition: 2s ease-in-out;
+}
+.hide1 {
+  opacity: 0;
+  transition: 2s ease-in-out;
+}
+
+.slide11 > img11 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

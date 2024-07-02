@@ -1,0 +1,4795 @@
+body {
+  overflow-y: scroll; /* or auto */
+}
+
+
+.cursor1-search {
+    position: absolute;
+    height: 61.54%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 38.46%;
+    left: 0;
+    background-color: #000;
+  }
+  /* .card112:hover{
+    width: 800px;
+    height: 200px;
+  } */
+  .cursor-search {
+    position: relative;
+    width: 0.13rem;
+    height: 1.63rem;
+    margin-top: 50px;
+    /* display: none; */
+  }
+  .logo-icon-search {
+    position: relative;
+    width: 4.5rem;
+    height: 1.25rem;
+
+  }
+  .logo-icon-search-1 {
+    position: relative;
+    width: 4.5rem;
+    height: 1.25rem;
+    filter: brightness(0) invert(1);
+    
+  }
+
+
+  .left-trail-search {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.63rem 1.5rem;
+    cursor: pointer;
+  }
+
+  .left-trail-search-2 {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.63rem 1.5rem;
+    filter: brightness(0) invert(1);
+
+  }
+  .left-trail-search-1 {
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.63rem 1.5rem;
+    cursor: pointer;
+    /* width: 130px; */
+    /* height: 20px; */
+  }
+  .spacing-search {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .ic-search-icon-search {
+    position: relative;
+    width: 21.58px;
+    height: 21.58px;
+    object-fit: cover;
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+
+  .ic-search-icon-search-1 {
+    position: relative;
+    width: 21.58px;
+    height: 21.58px;
+    object-fit: cover;
+    margin-top: 3px;
+    filter: brightness(0) invert(1);
+  }
+  .search-in-gnb-search {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 7px 7px 7px;
+    cursor: pointer;
+    /* padding: 1.25rem 1.5rem 1.25rem 1.25rem; */
+  }
+  .search-in-gnb-search-inner {
+   width: 54px;
+   height: 56px;
+  padding: 14px 14px 14px 14px;
+  border-radius: 4px;
+  }
+
+  .search-in-gnb-search-inner-2  {
+    width: 56px;
+    height: 56px;
+   padding: 14px 14px 14px 14px;
+   filter: brightness(0) invert(1);
+   }
+
+   
+ 
+   .search-in-gnb-search-inner-2:hover .ic-search-icon-search {
+    filter: none; /* Remove the filter on hover to revert to original color */
+  }
+ 
+     
+     
+  .search-in-gnb-search-inner-1 .ic-search-icon-search {
+    width: 56px;
+    height: 56px;
+   padding: 14px 14px 14px 14px;
+   }
+
+  .search-in-gnb-search-inner:hover {
+    background-color: black;
+  }
+  .search-in-gnb-search-inner-1:hover {
+    background-color: black;
+  }
+  
+  .search-in-gnb-search:hover .ic-search-icon-search {
+    filter: brightness(0) invert(1);
+  }
+  
+  .search-in-gnb-search-1:hover .ic-search-icon-search-1 {
+    filter: brightness(0) invert(1);
+  }
+  
+  .search-in-gnb-search:hover .ic-write-icon-search {
+    filter: brightness(0) invert(1);
+  }
+  
+  .search-in-gnb-search-inner-2:hover .ic-write-icon-search {
+ 
+      filter: brightness(1) invert(1);
+    
+  }
+  .ic-write-icon-search {
+    position: relative;
+    width: 21.5px;
+    height: 21.5px;
+    object-fit: cover;
+    margin-top: 2px;
+    margin-left: 4px;
+  }
+  .ic-write-icon-search-1 {
+    position: relative;
+    width: 23.33px;
+    height: 23.33px;
+    object-fit: cover;
+    filter: brightness(0) invert(1);
+  }
+  .write-in-gnb-search {
+    align-self: stretch;
+    background-color: #fff;
+    width: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    box-sizing: border-box;
+  }
+  .v-divider-161-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .v-divider-16-search {
+    position: relative;
+    width: 0.06rem;
+    height: 3rem;
+  }
+  .divider-search {
+    background-color: #fff;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.75rem 1rem;
+  }
+  .div1-search {
+    position: relative;
+    line-height: 0.88rem;
+    font-weight: 500;
+    /* color: white; */
+  }
+  .div1-search-1 {
+    position: relative;
+    line-height: 0.88rem;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+  .name-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0.06rem 0 0.06rem 0.06rem; */
+  }
+  .name-search1{
+    width:100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+   cursor: pointer;
+
+  }
+  .name-search1:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+
+
+  .name-search1-1{
+    width:100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    background-color: white;
+    border-radius: 5px;
+   cursor: pointer;
+
+  }
+  .name-search1-1:hover{
+    background-color: black;
+    
+    color: white;
+    border-radius: 5px;
+  }
+
+  .name-search11{
+    width:100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin-top: 15px;
+   
+
+  }
+  .name-search11:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+  .pic-fieldprof-10-icon-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu-search {
+    width: 42px;
+    height: 29px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid white;
+    box-sizing: border-box;
+   /* margin-left: 10px; */
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-top: 4.5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .field-list-imgfalsefalsethu-search1 {
+    width: 42px;
+    height: 29px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid  black;
+    box-sizing: border-box;
+   /* margin-left: 10px; */
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+
+  .field-list-imgfalsefalsethu-search22 {
+    width: 42px;
+    height: 32px;
+    position: relative;
+    border-radius: 4px;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+   /* margin-left: 10px; */
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-top: 8.5px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .invert-icon {
+    filter: brightness(0) invert(1);
+  }
+  .field-list-imgfalsefalsethu-search22:hover {
+   
+      filter: brightness(0) invert(1);
+    width: 42px;
+    height: 32px;
+    position: relative;
+    border-radius: 4px;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+   /* margin-left: 10px; */
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-top: 8.5px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+  .field-list-imgfalsefalsethu-search-1{
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+   margin-left: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 42px;
+    object-fit: cover;
+    height: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+  
+  .field-writer-search,
+
+  .new-gnb-wrapper-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .field-writer-search-1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .field-writer-search {
+    background-color: #fff;
+    height: 4.3rem;
+    align-items: center;
+    padding: 1.25rem 1.13rem 1.25rem 1.25rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+
+  .field-writer-search {
+    background-color: #fff;
+    height: 4.3rem;
+    align-items: center;
+    padding: 1.25rem 1.13rem 1.25rem 1.25rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+
+  .field-writer-search-2 {
+    /* background-color: #fff; */
+    height: 4.5rem;
+    align-items: center;
+    padding: 1.25rem 1.13rem 1.25rem 1.25rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+  }
+
+  
+  .new-gnb-wrapper-search {
+    align-self: stretch;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .sti{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  /* .new-gnb-search {
+  height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  background-color: #fff;
+  text-align: left;
+  font-size: 0.88rem;
+  color: #000;
+  font-family: "Spoqa Han Sans Neo";
+  z-index: 1000;
+ 
+ 
+
+  } */
+  .new-gnb-search {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #fff;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    z-index: 1000;
+  }
+
+
+  .new-gnb-search-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #fff;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    z-index: 1000;
+  }
+
+
+  .new-gnb-search-2 {
+    height: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    background-color: black;
+    text-align: left;
+    font-size: 0.88rem;
+    color:white;
+    font-family: "Spoqa Han Sans Neo";
+    z-index: 1000;
+   
+   
+    }
+  .new-gnb-wrapper-search {
+    height: 6.63rem;
+    padding: 0 0 2.13rem;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+  }
+  .ic-search-icon1-search {
+    position: relative;
+  
+    object-fit: cover;
+  }
+  .ic-search-wrapper-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.75rem 0 0;
+  }
+  .input-search {
+    width: calc(100% - 24px);
+    border: 0;
+    outline: 0;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 1.25rem;
+    background-color: transparent;
+    position: relative;
+    line-height: 1.63rem;
+    color: #000;
+    text-align: left;
+    display: inline-block;
+  }
+  .spacing1-search {
+    flex: 1;
+    position: relative;
+    height: 0.5rem;
+    min-width: 34.5rem;
+    max-width: 100%;
+  }
+  .frame-parent1-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    max-width: 100%;
+  }
+  .frame-div-search,
+  .frame-parent1-search,
+  .line-search {
+    align-self: stretch;
+  }
+  .line-search {
+    position: relative;
+    background-color: #000;
+    height: 0.13rem;
+  }
+  .frame-div-search{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 0.69rem;
+    max-width: 100%;
+  }
+  .b-search {
+    position: relative;
+    font-size: 0.70rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+  
+    text-align: left;
+  }
+  .text-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+  }
+  .filter-chip-search {
+    flex: 1;
+    border-radius: 24px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 0.25rem;
+    min-width: 3.81rem;
+    min-height: 2.5rem;
+  }
+  .b1-search {
+    position: relative;
+    font-size: 0.78rem;
+    line-height: 1rem;
+    font-family: "Spoqa Han Sans Neo";
+   
+    text-align: left;
+  }
+  .text1-search {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon1-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip1-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.63rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .b2-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text2-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon2-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip2-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    flex: 1;
+    border-radius: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    min-width: 3.56rem;
+    min-height: 2.5rem;
+  }
+  .b3-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text3-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon3-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip3-search{
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.06rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .b4-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text4-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon4-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip4-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.63rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .b5-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text5-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon5-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip5-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.63rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .filter-chip-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+  .filter-chip1-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip2-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip3-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip4-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip5-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip6-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip7-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip8-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ .filter-chip9-search:hover{
+   
+    background-color: black;
+    color: white!important;
+ }
+ 
+  .b6-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text6-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon6-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip6-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.63rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .b7-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text7-search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon7-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip7-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.63rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .b8-search{
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text8-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon8-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip8-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 4.63rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    
+  }
+  .b9-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 1.19rem;
+    font-family: "Spoqa Han Sans Neo";
+    /* color: #000; */
+    text-align: left;
+  }
+  .text9-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25rem;
+  }
+  .ic-check-icon9-search {
+    position: relative;
+    width: 1rem;
+    height: 1rem;
+    object-fit: cover;
+    display: none;
+  }
+  .filter-chip9-search {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 0 1.19rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-sizing: border-box;
+    width: 3.81rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .filters-search,
+  .frame-container-search,
+  .frame-wrapper-search {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .filters-search {
+    width: 51.44rem;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .frame-container-search,
+  .frame-wrapper-search {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .frame-container-search {
+    align-self: stretch;
+    gap: 2.25rem;
+  }
+  .frame-wrapper-search {
+    flex: 1;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+  }
+  .div2-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 0.88rem;
+    font-weight: 500;
+    font-family: "Spoqa Han Sans Neo";
+    color: #fff;
+    text-align: left;
+  }
+  .parent-frame-search {
+    cursor: pointer;
+    font-size: 0.88rem;
+    line-height: 0.88rem;
+    font-weight: 500;
+    font-family: "Spoqa Han Sans Neo";
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+    border: 0;
+    padding: 0.69rem 1.31rem 0.69rem 1.25rem;
+ 
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+ 
+  .div3-search {
+    position: relative;
+    font-size: 0.88rem;
+    line-height: 0.88rem;
+    font-weight: 500;
+    font-family: "Spoqa Han Sans Neo";
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+  }
+  .parent-frame1-search {
+    flex: 1;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.69rem;
+    cursor: pointer;
+    font-size: 0.88rem;
+    line-height: 0.88rem;
+    font-weight: 500;
+    font-family: "Spoqa Han Sans Neo";
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+  }
+  .active {
+    background-color: black;
+    color: white;
+  }
+  .bg-search,
+  .frame-group-search {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .bg-search {
+    border-radius: 8px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 10.75rem;
+    padding: 0.25rem 0.31rem 0.25rem 0.19rem;
+    gap: 0.25rem;
+  }
+  .frame-group-search {
+    margin: 0;
+    flex: 1;
+    gap: 0.63rem;
+    max-width: 100%;
+    margin-left: 45px;
+  }
+  .ic-close-icon-search {
+    position: relative;
+    margin-right: 100px;
+    margin-bottom: 60px;
+    width: 1 rem;
+    height: 1 rem;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .frame-parent-search,
+  .ic-close-wrapper-search,
+  .inner-search {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ic-close-wrapper-search {
+    flex-direction: column;
+    padding: 1.31rem 0 0;
+  }
+  .frame-parent-search,
+  .inner-search {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .frame-parent-search {
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 3.63rem;
+  }
+  .inner-search {
+    width: 84.63rem;
+    padding: 0 3.63rem;
+    box-sizing: border-box;
+    min-height: 9.63rem;
+    flex-shrink: 0;
+    margin: 0 auto; 
+    margin-left: 50px;
+}
+
+  .h-divider-20-search{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-16-search{
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  .h-divider-201-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-161-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  .p-search,
+  .p1-search {
+    margin: 0;
+  }
+  .b10-search{
+    position: relative;
+    line-height: 1.5rem;
+  }
+  .title-search,
+  .title-wrap-search {
+    display: flex;
+    flex-direction: row;
+  }
+  .title-search {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0.5rem 0 0;
+  }
+  .title-wrap-search{
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.13rem;
+  }
+  .aper-search,
+  .b11-search {
+    position: relative;
+  }
+  .aper-search {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  .b11-search {
+    line-height: 1.19rem;
+  }
+  .routine-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b12-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu1-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b13-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb-search{
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .div4-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .genre-date-for-story-child-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+    display: none;
+  }
+  .fear-of-driving-search,
+  .fear-of-driving1-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving1-search {
+    color: #000;
+  }
+  .duie-date-search {
+    flex: 1;
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .div5-search,
+  .div6-search,
+  .div7-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div5-search {
+    flex: 1;
+  }
+  .div6-search,
+  .div7-search {
+    display: none;
+  }
+  .date-search,
+  .genre-date-for-story-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .date-search {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story-search {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  .pic-fieldprof-08-icon1-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .b14-search,
+  .field-list-imgfalsefalsethu2-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .field-list-imgfalsefalsethu2-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  .b14-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb1-search{
+    width: 7.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .b15-search,
+  .captions1-search {
+    align-self: stretch;
+  }
+  .captions1-search {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b15-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer1-search {
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon2-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu3-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b16-search{
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb2-search {
+    flex: 1;
+    height: 2.13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.06rem 0 0.06rem 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .field-thumb3-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .frame-instance-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+  }
+  .div8-search {
+    /* align-self: stretch; */
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .wrapper-search {
+    width: 1.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+    box-sizing: border-box;
+  }
+  .frame-instance-child-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .frame-instance1-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+  }
+  .date2-search,
+  .div10-search,
+  .div9-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .date2-search {
+    flex: 1;
+  }
+  .div10-search,
+  .div9-search{
+    align-self: stretch;
+    display: none;
+  }
+  .date1-search {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .fear-of-driving2-search,
+  .fear-of-driving3-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving3-search{
+    color: #000;
+  }
+  .duie-date1-search,
+  .genre-date-for-story1-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .duie-date1-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story1-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 0.75rem;
+  }
+  .pic-fieldprof-08-icon3-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu4-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b17-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb4-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .captions-search,
+  .captions2-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .captions2-search {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .captions-search {
+    width: 25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  .p2-search,
+  .p3-search {
+    margin: 0;
+  }
+  .div11-search {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  .body-search {
+    flex: 1;
+    justify-content: center;
+  }
+  .body-search,
+  .body-wrap-search,
+  .list-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  .body-wrap-search {
+    flex: 1;
+    justify-content: center;
+    min-width: 29.56rem;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  .list-search {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  .h-divider-202-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-162-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  .root-frame-search,
+  .story-list-in-main-search {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+    /* overflow-y:scroll ; */
+  }
+  .story-list-in-main-search {
+    align-items: center;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+  }
+  .root-frame-search {
+    align-items: flex-start;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .p4-search,
+  .p5-search {
+    margin: 0;
+  }
+  .b18-search {
+    position: relative;
+    line-height: 1.5rem;
+  }
+  .title-wrap1-search,
+  .title1-search {
+    display: flex;
+    flex-direction: row;
+  }
+  .title1-search {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0.5rem 0 0;
+  }
+  .title-wrap1-search {
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.13rem;
+  }
+  .aper1-search,
+  .b19-search {
+    position: relative;
+  }
+  .aper1-search {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  .b19-search{
+    line-height: 1.19rem;
+  }
+  .routine1-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b20-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer2-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon4-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu5-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b21-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb5-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .div12-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .genre-date-for-story-item-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+    display: none;
+  }
+  .fear-of-driving4-search,
+  .fear-of-driving5-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving5-search {
+    color: #000;
+  }
+  .duie-date2-search {
+    flex: 1;
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .div13-search,
+  .div14-search,
+  .div15-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div13-search {
+    flex: 1;
+  }
+  .div14-search,
+  .div15-search {
+    display: none;
+  }
+  .date3-search,
+  .genre-date-for-story2-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .date3-search {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story2-search {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  .pic-fieldprof-08-icon5-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .b22-search,
+  .field-list-imgfalsefalsethu6-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .field-list-imgfalsefalsethu6-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  .b22-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb6-search {
+    width: 7.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .b23-search,
+  .captions4-search {
+    align-self: stretch;
+  }
+  .captions4-search {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b23-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer3-search {
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon6-search{
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu7-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b24-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb7-search {
+    flex: 1;
+    height: 2.13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.06rem 0 0.06rem 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .frame-child-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .genre-date-for-story-inner-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+  }
+  .div16-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .sanmun-search{
+    width: 1.88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+    box-sizing: border-box;
+  }
+  .frame-item-search{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .genre-date-for-story-inner1-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25rem 0 0;
+  }
+  .div17-search,
+  .div18-search,
+  .null-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .null-search {
+    flex: 1;
+  }
+  .div17-search,
+  .div18-search {
+    align-self: stretch;
+    display: none;
+  }
+  .date4-search {
+    width: 4.63rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .fear-of-driving6-search,
+  .fear-of-driving7-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving7-search  {
+    color: #000;
+  }
+  .duie-date3-search ,
+  .genre-date-for-story3-search  {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .duie-date3-search  {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story3-search  {
+    width: 17.5rem;
+    display: flex;
+    gap: 0.75rem;
+  }
+  .pic-fieldprof-08-icon7-search  {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu8-search  {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b25-search  {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb8-search  {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .captions3-search ,
+  .captions5-search  {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .captions5-search  {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .captions3-search  {
+    width: 25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  .h3-search ,
+  .p6-search ,
+  .p7-search  {
+    margin: 0;
+  }
+  .h3-search  {
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.04em;
+    line-height: 2.5rem;
+    font-weight: 400;
+    font-family: inherit;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  .body1-search  {
+    flex: 1;
+    justify-content: center;
+  }
+  .body-wrap1-search ,
+  .body1-search ,
+  .list1-search  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  .body-wrap1-search  {
+    flex: 1;
+    justify-content: center;
+    min-width: 29.56rem;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonV YoonMyungjo105Std_OTF";
+  }
+  .list1-search  {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  .h-divider-203-search  {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-163-search  {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  .story-list-in-main-search1-search  {
+    /* align-self: stretch; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .p8-search ,
+  .p9-search  {
+    margin: 0;
+  }
+  .b26-search  {
+    position: relative;
+    line-height: 1.5rem;
+  }
+  .title-wrap2-search ,
+  .title2-search  {
+    display: flex;
+    flex-direction: row;
+  }
+  .title2-search  {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0.5rem 0 0;
+  }
+  .title-wrap2-search  {
+    align-self: stretch;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.13rem;
+  }
+  .aper2-search ,
+  .b27-search  {
+    position: relative;
+  }
+  .aper2-search  {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  .b27-search  {
+    line-height: 1.19rem;
+  }
+  .routine2-search  {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b28-search  {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer4-search  {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon8-search  {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu9-search  {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b29-search  {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb9-search  {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .div19-search  {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rectangle-div-search  {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+    display: none;
+  }
+  .fear-of-driving8-search ,
+  .fear-of-driving9-search  {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving9-search  {
+    color: #000;
+  }
+  .duie-date4-search {
+    flex: 1;
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .div20-search ,
+  .div21-search ,
+  .div22-search  {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div20-search  {
+    flex: 1;
+  }
+  .div21-search ,
+  .div22-search  {
+    display: none;
+  }
+  .date5-search ,
+  .genre-date-for-story4-search  {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .date5-search  {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story4-search  {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  .pic-fieldprof-08-icon9-search  {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .b30-search ,
+  .field-list-imgfalsefalsethu10-search  {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .field-list-imgfalsefalsethu10-search  {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  .b30-search  {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb10-search  {
+    width: 7.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .b31-search ,
+  .captions7-search  {
+    align-self: stretch;
+  }
+  .captions7-search  {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b31-search  {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer5-search  {
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon10-search  {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu11-search  {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b32-search  {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+
+  .b39-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .writer7-search {
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .pic-fieldprof-08-icon14-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu15-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b40-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb15-search {
+    flex: 1;
+    height: 2.13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.06rem 0 0.06rem 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .genre-date-for-story-child2-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div31-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .genre-date-for-story-child3-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div32-search,
+  .div33-search,
+  .div34-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div32-search {
+    flex: 1;
+  }
+  
+  .div33-search,
+  .div34-search {
+    display: none;
+  }
+  
+  .date8-search {
+    width: 4.63rem;
+    height: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .fear-of-driving14-search,
+  .fear-of-driving15-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving15-search {
+    color: #000;
+  }
+  
+  .duie-date7-search,
+  .genre-date-for-story7-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .duie-date7-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story7-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon15-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu16-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b41-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb16-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .captions11-search,
+  .captions9-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .captions11-search {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .captions9-search {
+    width: 25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  
+  .p14-search,
+  .p15-search {
+    margin: 0;
+  }
+  
+  .div35-search {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  
+  .body3-search {
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .body-wrap3-search,
+  .body3-search,
+  .list3-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .body-wrap3-search {
+    flex: 1;
+    justify-content: center;
+    min-width: 29.56rem;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  
+  .list3-search {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  
+  .h-divider-205-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-165-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .story-list-in-main-search3-search {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .p16-search,
+  .p17-search {
+    margin: 0;
+  }
+  
+  .b42-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.5rem;
+  }
+  
+  .title-wrap4-search,
+  .title4-search {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .title4-search {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0.5rem 0 0;
+  }
+  
+  .title-wrap4-search {
+    height: 3.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.13rem;
+  }
+  
+  .aper4-search,
+  .b43-search {
+    position: relative;
+  }
+  
+  .aper4-search {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  
+  .b43-search {
+    line-height: 1.19rem;
+  }
+  
+  .routine4-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .b44-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .writer8-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .pic-fieldprof-08-icon16-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu17-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b45-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb17-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .div36-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .genre-date-for-story-child4-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+    display: none;
+  }
+  
+  .fear-of-driving16-search,
+  .fear-of-driving17-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving17-search {
+    color: #000;
+  }
+  
+  .duie-date8-search {
+    flex: 1;
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .div37-search,
+  .div38-search,
+  .div39-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div37-search {
+    flex: 1;
+  }
+  
+  .div38-search,
+  .div39-search {
+    display: none;
+  }
+  
+  .date9-search,
+  .genre-date-for-story8-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .date9-search {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story8-search {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon17-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu18-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b46-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb18-search {
+    width: 7.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .b47-search,
+  .captions13-search {
+    align-self: stretch;
+  }
+  
+  .captions13-search {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .b47-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .writer9-search {
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .pic-fieldprof-08-icon18-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu19-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b48-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb19-search {
+    flex: 1;
+    height: 2.13rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.06rem 0 0.06rem 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .genre-date-for-story-child5-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div40-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .genre-date-for-story-child6-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div41-search,
+  .div42-search,
+  .div43-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div41-search {
+    flex: 1;
+  }
+  
+  .div42-search,
+  .div43-search {
+    display: none;
+  }
+  
+  .date10-search {
+    width: 4.63rem;
+    height: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .fear-of-driving18-search,
+  .fear-of-driving19-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving19-search {
+    color: #000;
+  }
+  
+  .duie-date9-search,
+  .genre-date-for-story9-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .duie-date9-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story9-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon19-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu20-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b49-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb20-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .captions12-search,
+  .captions14-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .captions14-search {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .captions12-search {
+    width: 25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  
+  .p18-search,
+  .p19-search {
+    margin: 0;
+  }
+  
+  .div44-search {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 100%;
+  }
+  
+  .body4-search {
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .body-wrap4-search,
+  .body4-search,
+  .list4-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  .body-wrap4-search {
+    flex: 1;
+    justify-content: center;
+    min-width: 29.56rem;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  
+  .list4-search {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  
+  .h-divider-206-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-166-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .story-list-in-main-search4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  
+  .p20-search,
+  .p21-search {
+    margin: 0;
+  }
+  
+  .b50-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.5rem;
+  }
+  
+  .date12-search,
+  .genre-date-for-story12-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .date12-search {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story12-search {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon22-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .b56-search,
+  .field-list-imgfalsefalsethu23-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-list-imgfalsefalsethu23-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  
+  .b56-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb23-search {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .genre-date-for-story-child8-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div49-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .genre-date-for-story-child9-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div50-search,
+  .div51-search,
+  .div52-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div51-search,
+  .div52-search {
+    display: none;
+  }
+  
+  .date13-search,
+  .fear-of-driving26-search,
+  .fear-of-driving27-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving27-search {
+    color: #000;
+  }
+  
+  .duie-date13-search,
+  .genre-date-for-story13-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .duie-date13-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story13-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon27-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .fear-of-driving22-search,
+  .fear-of-driving23-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving23-search {
+    color: #000;
+  }
+  
+  .duie-date11-search,
+  .genre-date-for-story11-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .duie-date11-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story11-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon23-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .b57-search,
+  .field-list-imgfalsefalsethu24-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-list-imgfalsefalsethu24-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  
+  .b57-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb24-search {
+    width: 7.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .captions15-search,
+  .captions17-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .captions17-search {
+    align-self: stretch;
+    gap: 0.5rem;
+  }
+  
+  .captions15-search {
+    width: 25rem;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  
+  .p22-search,
+  .p23-search {
+    margin: 0;
+  }
+  
+  .div53-search {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.04em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .body-wrap5-search,
+  .body5-search,
+  .list5-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .body5-search {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .body-wrap5-search,
+  .list5-search {
+    max-width: 100%;
+  }
+  
+  .body-wrap5-search {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 29.56rem;
+    font-size: 1.25rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonV YoonMyungjo105Std_OTF";
+  }
+  
+  .list5-search {
+    width: 74.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  
+  .h-divider-207-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .h-divider-167-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  
+  .story-list-in-main-search5-search {
+    margin: 0 !important;
+    position: absolute;
+    top: 4.75rem;
+    left: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    z-index: 5;
+  }
+  
+  .p24-search,
+  .p25-search {
+    margin: 0;
+  }
+  
+  .b58-search {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+  }
+  
+  .title-wrap6-search,
+  .title6-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .title6-search {
+    flex: 1;
+    width: 7.81rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0 0;
+    box-sizing: border-box;
+  }
+  
+  .title-wrap6-search {
+    align-self: stretch;
+    height: 3.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.13rem;
+  }
+  
+  .aper6-search,
+  .b59-search {
+    position: relative;
+  }
+  
+  .aper6-search {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  
+  .b59-search {
+    line-height: 1.19rem;
+  }
+  
+  .routine6-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .b60-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .writer12-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .pic-fieldprof-08-icon24-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu25-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b61-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb25-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .div54-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .genre-date-for-story-child10-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+    display: none;
+  }
+  
+  .fear-of-driving24-search,
+  .fear-of-driving25-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving25-search {
+    color: #000;
+  }
+  
+  .duie-date12-search {
+    flex: 1;
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .div55-search,
+  .div56-search,
+  .div57-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div55-search {
+    flex: 1;
+  }
+  
+  .div56-search,
+  .div57-search {
+    display: none;
+  }
+  
+  .date13-search,
+  .genre-date-for-story12-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .date13-search {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story12-search {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon25-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .b62-search,
+  .field-list-imgfalsefalsethu26-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-list-imgfalsefalsethu26-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  
+  .b62-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .captions19-search,
+  .field-thumb26-search {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .field-thumb26-search {
+    width: 7.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .captions19-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .b63-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .writer13-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .pic-fieldprof-08-icon26-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu27-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .b64-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .field-thumb27-search {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .genre-date-for-story-child11-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div58-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .genre-date-for-story-child12-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  
+  .div59-search,
+  .div60-search,
+  .div61-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .div60-search,
+  .div61-search {
+    display: none;
+  }
+  
+  .date14-search {
+    height: 1.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .fear-of-driving26-search,
+  .fear-of-driving27-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  
+  .fear-of-driving27-search {
+    color: #000;
+  }
+  
+  .duie-date13-search,
+  .genre-date-for-story13-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .duie-date13-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .genre-date-for-story13-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .pic-fieldprof-08-icon27-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .b65-search,
+  .field-list-imgfalsefalsethu28-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .field-list-imgfalsefalsethu28-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  .b65-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb28-search {
+    width: 7.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .captions18-search,
+  .captions20-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .captions20-search {
+    align-self: stretch;
+    gap: 0.5rem;
+  }
+  .captions18-search {
+    width: 25rem;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  .p26-search,
+  .p27-search {
+    margin: 0;
+  }
+  .div62-search {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .body-wrap6-search,
+  .body6-search,
+  .list6-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .body6-search {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .body-wrap6-search,
+  .list6-search {
+    max-width: 100%;
+  }
+  .body-wrap6-search {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 29.56rem;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  .list6-search {
+    width: 74.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  .h-divider-208-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-168-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  .story-list-in-main-search6-search {
+    margin: 0 !important;
+    position: absolute;
+    top: 4.75rem;
+    left: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    z-index: 6;
+  }
+  .p28-search,
+  .p29-search {
+    margin: 0;
+  }
+  .b66-search {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    line-height: 1.5rem;
+  }
+  .title-wrap7-search,
+  .title7-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .title7-search {
+    flex: 1;
+    width: 7.81rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem 0 0;
+    box-sizing: border-box;
+  }
+  
+  .title-wrap7-search {
+    align-self: stretch;
+    height: 3.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.13rem;
+  }
+  .aper7-search,
+  .b67-search {
+    position: relative;
+  }
+  .aper7-search {
+    border-radius: 1px;
+    background-color: #000;
+    width: 0.25rem;
+    height: 1.75rem;
+  }
+  .b67-search {
+    line-height: 1.19rem;
+  }
+  .routine7-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .b68-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer14-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon28-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .field-list-imgfalsefalsethu29-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b69-search {
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb29-search {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .div63-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .genre-date-for-story-child13-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+    display: none;
+  }
+  .fear-of-driving28-search,
+  .fear-of-driving29-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving29-search {
+    color: #000;
+  }
+  .duie-date14-search {
+    flex: 1;
+    height: 1.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .div64-search,
+  .div65-search,
+  .div66-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div64-search {
+    flex: 1;
+  }
+  .div65-search,
+  .div66-search {
+    display: none;
+  }
+  .date15-search,
+  .genre-date-for-story14-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .date15-search {
+    flex: 1;
+    height: 1.19rem;
+    display: flex;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story14-search {
+    width: 8.31rem;
+    display: none;
+    padding: 0 1.06rem 0 0;
+    box-sizing: border-box;
+    gap: 1rem;
+  }
+  .pic-fieldprof-08-icon29-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .b70-search,
+  .field-list-imgfalsefalsethu30-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .field-list-imgfalsefalsethu30-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  .b70-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .captions22-search,
+  .field-thumb30-search {
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .field-thumb30-search {
+    width: 7.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  .captions22-search {
+    align-self: stretch;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .b71-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .writer15-search {
+    width: 3.44rem;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pic-fieldprof-08-icon30-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .field-list-imgfalsefalsethu31-search {
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .b72-search {
+    flex: 1;
+    position: relative;
+    line-height: 1.38rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb31-search {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 0 0.06rem;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .genre-date-for-story-child14-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .div67-search {
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .genre-date-for-story-child15-search {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12);
+    width: 0.06rem;
+    height: 1rem;
+  }
+  .div68-search,
+  .div69-search,
+  .div70-search {
+    align-self: stretch;
+    position: relative;
+    line-height: 1.19rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .div69-search,
+  .div70-search {
+    display: none;
+  }
+  .date16-search {
+    height: 1.19rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .fear-of-driving30-search,
+  .fear-of-driving31-search {
+    position: relative;
+    line-height: 1.19rem;
+  }
+  .fear-of-driving31-search {
+    color: #000;
+  }
+  .duie-date15-search,
+  .genre-date-for-story15-search {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .duie-date15-search {
+    flex: 1;
+    display: none;
+    gap: 0.25rem;
+    min-height: 1.38rem;
+    max-width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .genre-date-for-story15-search {
+    width: 17.5rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .pic-fieldprof-08-icon31-search {
+    position: absolute;
+    top: calc(50% - 27px);
+    left: calc(50% - 21px);
+    width: 2.63rem;
+    height: 3.39rem;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .b73-search,
+  .field-list-imgfalsefalsethu32-search {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .field-list-imgfalsefalsethu32-search {
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 2.75rem;
+    height: 2.13rem;
+  }
+  .b73-search {
+    flex: 1;
+    line-height: 1.38rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .field-thumb32-search {
+    width: 7.19rem;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0.06rem;
+    box-sizing: border-box;
+    gap: 0.5rem;
+    font-size: 1rem;
+  }
+  .captions21-search,
+  .captions23-search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .captions23-search {
+    align-self: stretch;
+    gap: 0.5rem;
+  }
+  .captions21-search {
+    width: 25rem;
+    gap: 1.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+  }
+  .p30-search,
+  .p31-search {
+    margin: 0;
+  }
+  .div71-search {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.06em;
+    line-height: 2.5rem;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .body-wrap7-search,
+  .body7-search,
+  .list7-search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .body7-search {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .body-wrap7-search,
+  .list7-search {
+    max-width: 100%;
+  }
+  .body-wrap7-search {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 29.56rem;
+    font-size: 1.13rem;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "YoonGothic 700";
+  }
+  .list7-search {
+    width: 74.5rem;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 1.25rem;
+    box-sizing: border-box;
+    gap: 1.5rem;
+  }
+  .h-divider-209-search {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .h-divider-169-search {
+    align-self: stretch;
+    position: relative;
+    height: 0.06rem;
+  }
+  .story-list-in-main-search7-search {
+    margin: 0 !important;
+    position: absolute;
+    top: 4.75rem;
+    left: 0;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.5rem 0 0;
+    box-sizing: border-box;
+    gap: 3rem;
+    max-width: 100%;
+    z-index: 7;
+  }
+  .div-search,
+  .items-search {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .items-search {
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 0.88rem;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .div-search {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    align-items: flex-end;
+    gap: 0.31rem;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .inner-search {
+      padding-left: 0px;
+      padding-right: 1.81rem;
+      box-sizing: border-box;
+      margin-left: 0px;
+    }
+    .ic-close-wrapper-search{
+      margin-left: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .frame-parent1-search {
+      flex-wrap: wrap;
+    }
+    .frame-group-search,
+    .frame-wrapper-search {
+      min-width: 100%;
+    }
+    .frame-group-search {
+      flex-wrap: wrap;
+    }
+    .captions-search {
+      flex: 1;
+    }
+    .list-search {
+      flex-wrap: wrap;
+    }
+    .captions3-search {
+      flex: 1;
+    }
+    .list1-search {
+      flex-wrap: wrap;
+    }
+    .captions6-search {
+      flex: 1;
+    }
+    .list2-search {
+      flex-wrap: wrap;
+    }
+    .captions9-search {
+      flex: 1;
+    }
+    .list3-search {
+      flex-wrap: wrap;
+    }
+    .captions12-search {
+      flex: 1;
+    }
+    .list4-search {
+      flex-wrap: wrap;
+    }
+    .captions15-search {
+      flex: 1;
+    }
+    .list5-search {
+      flex-wrap: wrap;
+    }
+    .captions18-search {
+      flex: 1;
+    }
+    .list6-search {
+      flex-wrap: wrap;
+    }
+    .captions21-search {
+      flex: 1;
+    }
+    .list7-search {
+      flex-wrap: wrap;
+    }
+    .div-search {
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .spacing1-search {
+      min-width: 100%;
+    }
+    .filters-search {
+      /* flex-wrap: wrap; */
+      overflow-x: auto;
+    }
+    /* .filter-chip444{
+      width: 300px;
+    } */
+    .frame-container-search {
+      gap: 1.13rem;
+    }
+    .frame-parent-search {
+      gap: 1.81rem;
+    }
+    .body-wrap-search,
+    .captions-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search-search {
+      gap: 1.5rem;
+    }
+    .body-wrap1-search,
+    .captions3-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search1-search {
+      gap: 1.5rem;
+    }
+    .body-wrap2-search,
+    .captions6-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search2-search {
+      gap: 1.5rem;
+    }
+    .body-wrap3-search,
+    .captions9-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search3-search {
+      gap: 1.5rem;
+    }
+    .body-wrap4-search,
+    .captions12-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search4-search {
+      gap: 1.5rem;
+    }
+    .body-wrap5-search,
+    .captions15-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search5-search {
+      gap: 1.5rem;
+    }
+    .body-wrap6-search,
+    .captions18-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search6-search {
+      gap: 1.5rem;
+    }
+    .body-wrap7-search,
+    .captions21-search {
+      min-width: 100%;
+    }
+    .story-list-in-main-search7-search {
+      gap: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .input-search {
+      font-size: 1rem;
+      line-height: 1.31rem;
+    }
+    .duie-date1-search,
+    .duie-date3-search {
+      flex-wrap: wrap;
+    }
+    .h3-search {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .duie-date5-search {
+      flex-wrap: wrap;
+    }
+    .h31-search {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    .duie-date11-search,
+    .duie-date7-search,
+    .duie-date9-search {
+      flex-wrap: wrap;
+    }
+    .div53-search {
+      font-size: 1rem;
+      line-height: 2rem;
+    }
+    
+  }
+  

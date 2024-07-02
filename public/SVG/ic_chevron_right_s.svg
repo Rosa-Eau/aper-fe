@@ -1,0 +1,10 @@
+<svg width="7" height="11" viewBox="0 0 7 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ic_chevron_right_s">
+<mask id="mask0_60_11042" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="7" height="11">
+<path id="ic_chevron_right_s_2" fill-rule="evenodd" clip-rule="evenodd" d="M1.15165 0.25L6.375 5.5L1.15165 10.75L1.44968e-06 9.59247L4.0717 5.5L-4.08373e-07 1.40753L1.15165 0.25Z" fill="black"/>
+</mask>
+<g mask="url(#mask0_60_11042)">
+<rect id="&#240;&#159;&#142;&#168; tint" x="-6" y="-3.5" width="18" height="18" fill="black"/>
+</g>
+</g>
+</svg>

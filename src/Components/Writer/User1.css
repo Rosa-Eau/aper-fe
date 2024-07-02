@@ -1,0 +1,118 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+
+}
+
+.view {
+  margin-top: 300px;
+  margin-left: 500px;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+}
+
+.icons {
+  display: flex;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+.ic-search-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  /* padding: 1.25rem; */
+  margin-right: 2rem;
+}
+
+.write-in-gnb {
+  width: 2.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  box-sizing: border-box;
+}
+
+.label-button4 {
+  border-radius: 4px;
+  height: 3rem;
+  justify-content: center;
+  padding: 0.38rem 1.25rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.image-body {
+
+  width: 120px;
+  height: 120px;
+}
+
+
+.user-component {
+
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slide-down {
+  opacity: 1;
+}
+
+.slide-up {
+  opacity: 0;
+}

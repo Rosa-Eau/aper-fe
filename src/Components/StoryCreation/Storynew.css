@@ -1,0 +1,212 @@
+.outer-div-1-1-1{
+    width: 700px;
+    height: 180px;
+    margin-top:5%;
+    margin-left: 370px;
+    margin-right: 370px;
+    z-index: 0;
+   
+}
+.outer-div-1 {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 5% auto;
+  padding: 0 20px; 
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+
+.main-horizontal {
+  display: flex;
+  flex-direction: column;
+}
+.second-horizontal {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.outer-div- {
+  width: 100%;
+  padding: 0 20px; 
+  box-sizing: border-box;
+  z-index: 0;
+}
+
+
+.main-title{
+    flex: 2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.main-title{
+    flex: 2;
+
+    display: flex;
+    flex-direction: row;
+}
+.text-main{
+    margin-left: 20px;
+    font-family: 'Spoqa Han Sans Neo', sans-serif;
+}
+.toggle-name{
+    
+    flex: 2;
+    cursor: pointer;
+}
+.more-main{
+     cursor: pointer;
+    flex: 1;
+    text-align: right;
+    padding-right: 4px;
+}
+
+.main-toggle{
+    /* flex: 0.7; */
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-toggle1{
+    flex: 0.7;
+    margin-left: 70;
+    display: flex;
+    flex-direction: row;
+}
+.main-horizontal{
+    /* width: 100%; */
+    height: 28px ;
+ 
+    display: flex;
+    flex-direction: row;
+}
+.second-horizontal{
+    width: 100%;
+    height: 96px;
+    
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (min-width: 768px) {
+
+
+  .main-horizontal {
+      flex-direction: row;
+  }
+
+  .second-horizontal {
+      flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .outer-div-1 {
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+
+.first-horizontal-1{
+
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.second-horizontal-1{
+   
+    flex: 0.3;
+    
+  }
+
+  .col-horizontal-1{
+    width: 100%;
+    margin-top: 1%;
+   
+    flex: 1;
+  }
+  .col-horizontal-2{
+    width: 100%;
+   
+    flex: 1;
+
+  }
+
+  .second-horizontal-1 tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  .link-copied {
+    color:  white;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 70px;
+    white-space: nowrap; 
+    font-size: 14px;
+    max-width: 100%; 
+    position: absolute;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    align-items: flex-end;
+    /* right:250px; */
+  }
+  .story-table {
+    border: 2px solid black;
+    width:100%;
+    height: 104px;
+  
+    border-radius:14px;
+    margin-left: 110px;
+  
+    
+  }
+
+  .form-check-input:checked{
+    border-color: white;
+  }
+
+
+  .form-check-input:not(:checked) {
+    
+    background-color: grey; 
+  }
+  .form-check-input:checked {
+    background-color: rgb(50, 215, 50); 
+  }
+  .form-check-input:focus::before {
+    border-color: green !important;
+    box-shadow: 0 0 0 0.2rem rgba(48, 48, 48, 0.25) !important;
+}
+
+.form-check-input:not(:checked) {
+    background-color: rgb(50, 215, 50); 
+}
+
+.form-check-input:checked {
+    background-color: grey; 
+}
+
+
+.form-check-input:checked:not(:focus)::before {
+    border-color: green !important;
+    box-shadow: 0 0 0 0.2rem rgba(48, 48, 48, 0.25) !important;
+}
+
+.form-switch .form-check-input:checked {
+  box-shadow: 0 0 0 3px white !important;
+  outline: none;
+}
+.form-switch .form-check-input:checked {
+  box-shadow: 0 0 0 3px white !important;
+  outline: none;
+}
+.form-switch .form-check-input {
+  box-shadow: 0 0 0 3px white !important;
+  outline: none;
+}

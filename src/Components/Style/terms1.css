@@ -1,0 +1,764 @@
+.kacper-peciak-ut0fov6-vkw-unsp-icon1 {
+    position: absolute;
+    height: 144%;
+    width: 106%;
+    top: 25.82%;
+    right: -6%;
+    bottom: -69.82%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .pic-fieldprof-051 {
+    position: absolute;
+    height: 206.25%;
+    width: 100%;
+    top: -53.26%;
+    right: 0;
+    bottom: -53%;
+    left: 0;
+    overflow: hidden;
+  }
+  .cover2,
+  .cover3,
+  .room {
+    position: absolute;
+    height: 55.88em;
+  }
+  .cover2 {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.36);
+    width: 90em;
+  }
+  .cover3,
+  .room {
+    width: 89.63em;
+  }
+  .cover3 {
+    top: 0;
+    left: calc(50% - 717px);
+    background: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.1));
+    opacity: 0.2;
+  }
+  .room {
+    top: 0.19em;
+    left: 0.19em;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .logo-icon1 {
+    position: absolute;
+    top: 25.94em;
+    left: calc(50% - 483px);
+    width: 9em;
+    height: 2.5em;
+  }
+  .heading1 {
+    flex: 1;
+    position: relative;
+    font-size: 1.38em;
+    line-height: 1.27em;
+  }
+  .tint13 {
+    position: absolute;
+    height: 150%;
+    width: 137.4%;
+    top: -25%;
+    right: -20.61%;
+    bottom: -25%;
+    left: -16.79%;
+    background-color: #000;
+  }
+  .ic-arrow-left5 {
+    position: absolute;
+    height: 66.67%;
+    width: 72.78%;
+    top: 16.67%;
+    right: 14.44%;
+    bottom: 16.67%;
+    left: 12.78%;
+  }
+  .ic-arrow-left4 {
+    position: relative;
+    width: 1.13em;
+    height: 1.13em;
+  }
+  .div13 {
+    position: relative;
+    font-size: 0.88em;
+    line-height: 1em;
+    font-weight: 500;
+  }
+  .text5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.25em;
+  }
+  .nowrite-icon4 {
+    position: relative;
+    width: 1.13em;
+    height: 1.13em;
+    display: none;
+  }
+  .label-button-container,
+  .label-button3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.25em;
+  }
+  .label-button3 {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.38em 0.75em;
+    box-sizing: border-box;
+  }
+  .label-button-container {
+    width: 4.75em;
+    display: none;
+  }
+  .group-container {
+    position: relative;
+    width: 4.75em;
+    height: 2.25em;
+    display: none;
+  }
+  .heading-group {
+    background-color: #fff;
+    width: 21.25em;
+    height: 2.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 0;
+  }
+  .div14 {
+    position: relative;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    font-weight: 500;
+  }
+  .label4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .tint14 {
+    position: absolute;
+    top: calc(50% - 12.2px);
+    left: calc(50% - 12px);
+    background-color: #000;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .ic-user5 {
+    position: absolute;
+    height: 73%;
+    width: 75%;
+    top: 14.5%;
+    right: 12.5%;
+    bottom: 12.5%;
+    left: 12.5%;
+  }
+  .ic-user4 {
+    position: relative;
+    width: 1.25em;
+    height: 1.25em;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .left-tails4 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.88em;
+  }
+  .dots-child29 {
+    position: relative;
+    border-radius: 50%;
+    background-color: #000;
+    width: 0.38em;
+    height: 0.38em;
+  }
+  .dots4 {
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.25em;
+  }
+  .placeholder4 {
+    position: relative;
+    font-size: 1em;
+    line-height: 1.38em;
+  }
+  .spacing4 {
+    flex: 1;
+    position: relative;
+    height: 0.5em;
+  }
+  .input7,
+  .rightarea6 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .rightarea6 {
+    display: none;
+    justify-content: center;
+    padding: 0.75em;
+  }
+  .input7 {
+    height: 3em;
+    display: flex;
+    justify-content: flex-start;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .input6,
+  .input7,
+  .line4 {
+    align-self: stretch;
+  }
+  .line4 {
+    position: relative;
+    background-color: #000;
+    height: 0.13em;
+  }
+  .input6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .ic-pw5,
+  .tint16 {
+    position: absolute;
+  }
+  .tint16 {
+    height: 126.58%;
+    width: 126.58%;
+    top: -13.29%;
+    right: -13.29%;
+    bottom: -13.29%;
+    left: -13.29%;
+    background-color: #000;
+  }
+  .ic-pw5 {
+    height: 79%;
+    width: 79%;
+    top: 10.5%;
+    right: 10.5%;
+    bottom: 10.5%;
+    left: 10.5%;
+  }
+  .value2 {
+    flex: 1;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .div17,
+  .value2 {
+    position: relative;
+    font-size: 1em;
+    line-height: 1.38em;
+    display: none;
+  }
+  .novisible-icon2 {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .rightarea8 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em;
+    color: #000;
+  }
+  .inputs {
+    width: 21.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1em;
+  }
+  .ic-checkbox-icon {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+  }
+  .b,
+  .div21 {
+    position: relative;
+    font-size: 1em;
+    line-height: 1.38em;
+  }
+  .div21 {
+    flex: 1;
+  }
+  .b {
+    z-index: 0;
+  }
+  .frame-child {
+    position: absolute;
+    margin: 0 !important;
+    bottom: 0;
+    left: calc(50% - 29.5px);
+    background-color: #000;
+    width: 3.69em;
+    height: 0.06em;
+    z-index: 1;
+  }
+  .parent {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    text-align: right;
+  }
+  .agree,
+  .div20,
+  .group {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .div20 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25em;
+  }
+  .agree,
+  .group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .group {
+    position: relative;
+    text-align: right;
+  }
+  .agree {
+    width: 21.25em;
+    gap: 0.75em;
+  }
+  .tint18 {
+    position: absolute;
+    height: 119.76%;
+    width: 119.76%;
+    top: -10.18%;
+    right: -9.58%;
+    bottom: -9.58%;
+    left: -10.18%;
+   
+  }
+  .ic-write11 {
+    position: absolute;
+    height: 83.5%;
+    width: 83.5%;
+    top: 8.5%;
+    right: 8%;
+    bottom: 8%;
+    left: 8.5%;
+  }
+  .ic-write10 {
+    position: relative;
+    width: 1.25em;
+    height: 1.25em;
+    display: none;
+  }
+  .div26 {
+    position: relative;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 500;
+  }
+  .body,
+  .label-button4 {
+    display: flex;
+    align-items: center;
+  }
+  .label-button4 {
+    border-radius: 4px;
+    background-color: #000;
+    width: 21.25em;
+    height: 3em;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.38em 1.25em;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+  }
+  .body {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.25em;
+    z-index: 1;
+    text-align: left;
+  }
+  .contents1,
+  .label-button5 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .label-button5 {
+    margin: 0 !important;
+    top: 41.38em;
+    left: 10.5em;
+    border-radius: 4px;
+    height: 2.25em;
+    flex-direction: row;
+    padding: 0.38em 0.75em;
+    z-index: 2;
+  }
+  .contents1 {
+    top: calc(50% - 359px);
+    left: 50.25em;
+    border-radius: 8px;
+    background-color: #fff;
+    height: 44.88em;
+    flex-direction: column;
+    padding: 2.25em;
+    gap: 2.25em;
+  }
+  .child,
+  .tint20 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90em;
+    height: 67.5em;
+  }
+  .tint20 {
+    height: 184.97%;
+    width: 184.97%;
+    top: -42.2%;
+    right: -42.77%;
+    bottom: -42.77%;
+    left: -42.2%;
+    background-color: #000;
+  }
+  .ic-close-s1 {
+    position: absolute;
+    height: 54.06%;
+    width: 54.06%;
+    top: 22.81%;
+    right: 23.13%;
+    bottom: 23.13%;
+    left: 22.81%;
+  }
+  .ic-close-s {
+    position: relative;
+    width: 2em;
+    height: 2em;
+    display: none;
+  }
+  .left-trails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .b3 {
+    flex: 1;
+    position: relative;
+    font-size: 1.13em;
+    line-height: 1.33em;
+  }
+  .tint21 {
+    position: absolute;
+    height: 141.41%;
+    width: 141.41%;
+    top: -20.71%;
+    right: -20.71%;
+    bottom: -20.71%;
+    left: -20.71%;
+    background-color: #000;
+  }
+  .ic-close3 {
+    position: absolute;
+    height: 70.71%;
+    width: 70.71%;
+    top: 14.64%;
+    right: 14.64%;
+    bottom: 14.64%;
+    left: 14.64%;
+  }
+  .ic-close2 {
+    position: relative;
+    width: 1.75em;
+    height: 1.75em;
+  }
+  .header1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1em;
+    z-index: 0;
+  }
+  .divider {
+    position: absolute;
+    margin: 0 !important;
+    bottom: 0.03em;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 37.5em;
+    height: 0.06em;
+    z-index: 1;
+  }
+  .header {
+    height: 3.75em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+  }
+  .p {
+    margin: 0;
+  }
+  .group-child,
+  .group-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33.75em;
+  }
+  .group-child {
+    border-radius: 4px;
+    height: 15.88em;
+  }
+  .group-item {
+    height: 2.63em;
+  }
+  .group-inner,
+  .vector-icon {
+    position: absolute;
+    top: 0.03em;
+    left: 11.22em;
+    width: 0.06em;
+    height: 15.81em;
+  }
+  .vector-icon {
+    left: 22.47em;
+  }
+  .b4,
+  .div29,
+  .div30,
+  .div31 {
+    position: absolute;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    display: inline-block;
+    width: 11.43em;
+  }
+  .b4 {
+    top: 1em;
+    left: 0.71em;
+    height: 1.36em;
+  }
+  .div29,
+  .div30,
+  .div31 {
+    top: 0;
+    left: 0;
+  }
+  .div30,
+  .div31 {
+    top: 0.71em;
+    left: 12.86em;
+  }
+  .div31 {
+    left: 25.71em;
+  }
+  .group-div {
+    top: 3.63em;
+    left: 0.63em;
+    width: 32.5em;
+    height: 2.38em;
+  }
+  .div33,
+  .group-div,
+  .parent1 {
+    position: absolute;
+  }
+  .div33 {
+    top: 0;
+    left: 12.86em;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    display: inline-block;
+    width: 11.43em;
+  }
+  .parent1 {
+    top: 8.06em;
+    left: 0.63em;
+    width: 32.5em;
+    height: 2.38em;
+  }
+  .div35,
+  .div37 {
+    position: absolute;
+    top: 0.71em;
+    left: 0;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    display: inline-block;
+    width: 11.43em;
+  }
+  .div37 {
+    top: 0;
+    left: 25.71em;
+  }
+  .b5,
+  .b6,
+  .parent2 {
+    position: absolute;
+    top: 12.5em;
+    left: 0.63em;
+    width: 32.5em;
+    height: 2.38em;
+  }
+  .b5,
+  .b6 {
+    top: 1em;
+    left: 13.57em;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    display: inline-block;
+    width: 11.43em;
+    height: 1.36em;
+  }
+  .b6 {
+    left: 26.43em;
+  }
+  .group-child1,
+  .rectangle-icon {
+    position: absolute;
+    top: 7em;
+    left: 0;
+    width: 33.75em;
+    height: 0.06em;
+  }
+  .group-child1 {
+    top: 11.44em;
+  }
+  .vector-parent {
+    position: relative;
+    width: 33.75em;
+    height: 15.88em;
+  }
+  .div38 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.88em;
+    line-height: 1.36em;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 1.06em;
+    left: 9.81em;
+    background-color: #000;
+    width: 6.38em;
+    height: 0.06em;
+  }
+  .div39,
+  .parent3 {
+    position: relative;
+  }
+  .parent3 {
+    width: 24.75em;
+    height: 1.19em;
+  }
+  .div39 {
+    align-self: stretch;
+    font-size: 0.88em;
+    line-height: 1.36em;
+  }
+  .group-parent {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.25em;
+  }
+  .frame-div,
+  .group-parent,
+  .label-button6 {
+    display: flex;
+    align-items: center;
+  }
+  .label-button6 {
+    border-radius: 4px;
+    background-color: #000;
+    width: 7.5em;
+    height: 3em;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.38em 1.25em;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .frame-div {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2em 1.75em;
+    gap: 2em;
+  }
+  .div12,
+  .pop {
+    background-color: #fff;
+  }
+  .pop {
+    position: absolute;
+    top: calc(50% - 315.5px);
+    left: 26.25em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .div12 {
+    position: relative;
+    width: 100%;
+    height: 56.25em;
+    overflow: hidden;
+    text-align: center;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+  }
+  .popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    /* z-index: 999;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  

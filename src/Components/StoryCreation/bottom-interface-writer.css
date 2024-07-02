@@ -1,0 +1,169 @@
+.logo-icon1 {
+    align-self: stretch;
+    height: 1.25em;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .left-trail2 {
+    height: 4.5em;
+    width: 7.5em;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 1.5em;
+    box-sizing: border-box;
+  }
+  .progress2 {
+    height: 1.25em;
+    width: 3.75em;
+    border-radius: 4px;
+    background-color: #000;
+  }
+  .progress1 {
+    width: 74.13em;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.06);
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .b2 {
+    align-self: stretch;
+    width: 2.86em;
+    position: relative;
+    font-size: 0.88em;
+    line-height: 1.36em;
+    display: none;
+    flex-shrink: 0;
+  }
+  .bar {
+    height: 3.69em;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.25em 0;
+    box-sizing: border-box;
+    gap: 0.5em;
+    min-width: 34.94em;
+    max-width: 100%;
+  }
+  .fear-of-driving {
+    position: relative;
+    font-size: 0.75em;
+    line-height: 1.33em;
+    color: #ff3d00;
+    text-align: center;
+  }
+  .toggle-buttons {
+    color: #000;
+  }
+  .toggle-buttons,
+  .toggle-buttons1,
+  .toggle-buttons2 {
+    position: relative;
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 500;
+  }
+  .characters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1.25em 0;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.36);
+    /* margin-left: 400px; */
+  }
+  .toggle-child,
+  .toggle-item {
+    height: 1em;
+    width: 1em;
+    position: relative;
+    border-radius: 16px;
+  }
+  .toggle-item {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  .toggle {
+    height: 1.25em;
+    width: 2.38em;
+    border-radius: 16px;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.13em;
+    box-sizing: border-box;
+    gap: 0.13em;
+  }
+  .div23 {
+    position: relative;
+    font-size: 0.75em;
+    line-height: 1em;
+    font-weight: 500;
+  }
+  .bottom-interface-writer,
+  .open-closed,
+  .progress11 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .open-closed {
+    padding: 1.25em 0;
+    gap: 0.25em;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  .bottom-interface-writer,
+  .progress11 {
+    max-width: 100%;
+  }
+  .progress11 {
+    flex: 1;
+    padding: 0 1.5em 0 0;
+    box-sizing: border-box;
+    gap: 1.5em;
+    min-width: 53em;
+    min-height: 4.5em;
+  }
+  .bottom-interface-writer {
+    position: fixed; 
+    left: 0; 
+    bottom: 0;
+    width: 100%; 
+    
+    flex-wrap: wrap;
+    gap: 1em;
+    text-align: left;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    /* z-index: 9999; */
+}
+  @media screen and (max-width: 1050px) {
+    .progress11 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .progress11{
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .bar {
+      min-width: 100%;
+    }
+  }

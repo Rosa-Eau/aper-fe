@@ -1,0 +1,42 @@
+.horizontal-list {
+    list-style-type: none; /* Remove default list styling */
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Align items horizontally at the center */
+}
+
+.horizontal-list li {
+    margin-right: 10px;
+    color: black;
+     font-weight: 500;
+}
+
+
+.pagination {
+    padding-top: 3rem;
+    /* display: inline-block; */
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+  }
+   
+  .pagination span {
+    color: black;
+    gap: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color .3s;
+  }
+   
+  .pagination span.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+   
+  .pagination span:hover:not(.active) {background-color: #ddd;}
